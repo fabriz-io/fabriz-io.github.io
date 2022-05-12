@@ -79,8 +79,8 @@ analytics:
 # Site Author
 author:
   name: 'Fabrizio Kuruc'
-  avatar: 'profile.png'
-  bio: 'Trading trade-offs'
+  avatar: 'test.png'
+  bio: 'Trading trade-offs.'
   location: 'Location'
   employer:
   pubmed: 'https://www.ncbi.nlm.nih.gov/pubmed/?term=fabrizio+kuruc'
