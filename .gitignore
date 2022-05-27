@@ -8,3 +8,7 @@ zotero_export/files/
 .venv/
 
 .github/
+
+*__pycache__/
+
+*.ipynb_checkpoints/
