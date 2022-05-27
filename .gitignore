@@ -4,3 +4,7 @@ _site/
 zotero_export/files/
 
 *.zip
+
+.venv/
+
+.github/

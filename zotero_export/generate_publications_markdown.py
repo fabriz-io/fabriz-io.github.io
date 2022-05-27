@@ -7,10 +7,9 @@ from string import Template
 
 from pybtex.database.input import bibtex
 
-# %% Publication Template
+# %% Markdown Templates
 
-
-publikation_markdown_template = Template(
+publication_markdown_template = Template(
     (
         "---\n"
         f"title: '$title'\n"
