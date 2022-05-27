@@ -1,2 +1,6 @@
 _site/
 
+*.bib
+zotero_export/files/
+
+*.zip
