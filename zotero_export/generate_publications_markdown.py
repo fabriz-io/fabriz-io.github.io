@@ -165,8 +165,14 @@ def generate_markdown(bibtex_file):
 
     for bib_id in bibdata.entries:
 
+        # BibLatex 'Item Type', e.g. @book or @article
+        # Can be managed with the 'Item Type' field in Zotero
         bib_item_type = bibdata.entries.get(bib_id).type
+
+        # Contents of the BibLatex Entry
         bib_item_fields = bibdata.entries.get(bib_id).fields
+
+        # Authors are separately extracted by bibtex.Parser()
         bib_item_persons = bibdata.entries.get(bib_id).persons
 
         if bib_item_type not in configs:
@@ -175,8 +181,10 @@ def generate_markdown(bibtex_file):
             print("Warning. This type of bibitem is not being handled yet.")
             continue
 
+        # Get Item type for current BibLatex Entry
         config_item = configs.get(bib_item_type)
 
+        # Generate Markdown page based on Item Type
         config_item.get("markdown_generator")(
             bib_item_fields, bib_item_persons, config_item
         )
