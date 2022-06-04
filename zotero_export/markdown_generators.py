@@ -8,16 +8,9 @@ from string import Template
 import dateutil
 from slugify import slugify
 
-# from markdown_generators import generate_publications_markdown
-# from markdown_templates import (
-#     publication_markdown_template,
-#     talk_and_presentation_markdown_template,
-# )
-
-# from markdown_templates import publication_markdown_template
-
-
-# %%
+# %% ______________________________________________________________________________________________
+# _________________________________________________________________________________________________
+# _________________________________________________________________________________________________
 
 
 def generate_publications_markdown(bibitem, config_item):
@@ -34,7 +27,7 @@ def generate_publications_markdown(bibitem, config_item):
             "---\n"
             f"title: '$title'\n"
             f"collection: 'publications'\n"
-            f"permalink: '/publication/$_id'\n"
+            f"permalink: '/publications/$_id'\n"
             f"date: $date\n"
             f"venue: '$venue'\n"
             f"paperurl: '$paperurl'\n"
@@ -114,6 +107,67 @@ def generate_publications_markdown(bibitem, config_item):
     return markdown_string
 
 
+# %% ______________________________________________________________________________________________
+# _________________________________________________________________________________________________
+# _________________________________________________________________________________________________
+
+
+def generate_talks_markdown(bibitem, config_item):
+    """ """
+
+    # String Template to be inserted into generated Markdown file.
+    publication_markdown_template = Template(
+        (
+            "---\n"
+            f"title: '$title'\n"
+            f"collection: 'talks'\n"
+            'type: "Talk"'
+            f"permalink: '/talks/$_id'\n"
+            f"venue: '$venue'\n"
+            f"date: $date\n"
+            f"location: $location'\n"
+            "---\n\n"
+        )
+    )
+
+    date = dateutil.parser.parse(bibitem.get("date"))
+
+    pub_date = datetime.datetime.strftime(date, "%Y-%m-%d")
+
+    pub_year = str(date.year)
+
+    title = html.escape(bibitem.get("title"))
+
+    url_slug = slugify(title)
+
+    md_filename = os.path.basename(
+        (pub_date + "-" + url_slug + ".md").replace("--", "-")
+    )
+
+    _id = url_slug
+    location = bibitem.get("location")
+
+    venuekey = config_item.get("venuekey")
+
+    venue = bibitem.get(venuekey)
+
+    markdown_string = publication_markdown_template.substitute(
+        title=title, _id=_id, date=pub_date, venue=venue, location=location
+    )
+
+    collections_folder = "../_talks"
+
+    os.makedirs(collections_folder, exist_ok=True)
+
+    with open(os.path.join(collections_folder, md_filename), "w") as f:
+        f.write(markdown_string)
+
+
+# %% ______________________________________________________________________________________________
+# _________________________________________________________________________________________________
+# _________________________________________________________________________________________________
+
+
 def generate_markdown(bibtexjson_path, configs):
     with open(bibtexjson_path) as f:
         bibdata = json.load(f)
@@ -146,3 +200,8 @@ def generate_markdown(bibtexjson_path, configs):
             print(
                 "Error generating Markdown String. Probably some fields are missing in the bibitem."
             )
+
+
+# %% ______________________________________________________________________________________________
+# _________________________________________________________________________________________________
+# _________________________________________________________________________________________________
