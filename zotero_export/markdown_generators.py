@@ -1,24 +1,59 @@
+# %%
 import datetime
 import html
+import json
 import os
-import re
+from string import Template
+
+import dateutil
+from slugify import slugify
+
+# from markdown_generators import generate_publications_markdown
+# from markdown_templates import (
+#     publication_markdown_template,
+#     talk_and_presentation_markdown_template,
+# )
+
+# from markdown_templates import publication_markdown_template
 
 
-def generate_publications_markdown(bib_item_fields, bib_item_persons, config_item):
+# %%
+
+
+def generate_publications_markdown(bibitem, config_item):
     """Generates Markdown files for being HTML rendered.
 
     Args:
-        bib_item_fields: pybtex element holding fields of an BibLatex entry
-        bib_item_persons: pybtex element holding authors of an BibLatex entry
+        bib_item: ...
         cofig_item: dictionary with specific format [Add description]
     """
 
-    def generate_citation(bib_persons, title, venue):
-        """Generated the citation out of the publications meta data."""
+    # String Template to be inserted into generated Markdown file.
+    publication_markdown_template = Template(
+        (
+            "---\n"
+            f"title: '$title'\n"
+            f"collection: 'publications'\n"
+            f"permalink: '/publication/$_id'\n"
+            f"date: $date\n"
+            f"venue: '$venue'\n"
+            f"paperurl: '$paperurl'\n"
+            f"citation: '$citation'\n"
+            f"filepath: '$filepath'\n"
+            "---\n\n"
+            f'[PDF](https://fabriz-io.github.io/$filepath){{:target="_blank"}}\n'
+        )
+    )
+
+    def generate_citation(creators, title, venue, pub_year):
+        """Generates citation out of publications meta data."""
+
         citation = ""
 
-        for author in bib_persons.get("author"):
-            citation += " " + author.first_names[0] + " " + author.last_names[0] + ", "
+        for author in creators:
+            citation += (
+                " " + author.get("firstName") + " " + author.get("lastName") + ", "
+            )
 
         citation += (
             '"'
@@ -31,67 +66,83 @@ def generate_publications_markdown(bib_item_fields, bib_item_persons, config_ite
 
         return citation
 
-    pub_year = str(bib_item_fields.get("year"))
+    date = dateutil.parser.parse(bibitem.get("date"))
 
-    # Apparently months can come in different formats in biblatex
-    pub_month = "01"
-    pub_day = "01"
-    for month_formatting in ["%b", "%B", "%m"]:
-        try:
-            month_string = str(bib_item_fields.get("month"))
-            pub_month = f"{datetime.datetime.strptime(month_string, month_formatting).month:02d}"
-            break
-        except:
-            continue
+    pub_date = datetime.datetime.strftime(date, "%Y-%m-%d")
 
-    pub_date = "-".join([pub_year, pub_month, pub_day])
+    pub_year = str(date.year)
 
-    # strip out {} as needed (some bibtex entries that maintain formatting)
-    clean_title = (
-        bib_item_fields["title"]
-        .replace("{", "")
-        .replace("}", "")
-        .replace("\\", "")
-        .replace(" ", "-")
-    )
-    title = html.escape(clean_title)
+    title = html.escape(bibitem.get("title"))
 
-    url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
-    url_slug = url_slug.replace("--", "-")
+    url_slug = slugify(title)
 
     md_filename = os.path.basename(
         (pub_date + "-" + url_slug + ".md").replace("--", "-")
     )
-    html_filename = (pub_date + "-" + url_slug).replace("--", "-")
 
-    collection = config_item.get("collection")
-    paperurl = bib_item_fields.get("url")
-    # permalink = collection.get("permalink") + html_filename
-    venue_pretext = config_item.get("venue-pretext")
+    paperurl = bibitem.get("url")
 
     venuekey = config_item.get("venuekey")
 
-    venue = venue_pretext + bib_item_fields.get(venuekey).replace("{", "").replace(
-        "}", ""
-    ).replace("\\", "")
+    venue = bibitem.get(venuekey)
 
-    citation = generate_citation(bib_item_persons, title, venue)
+    creators = bibitem.get("creators")
 
-    markdown_template = config_item.get("markdown_template")
+    citation = generate_citation(creators, title, venue, pub_year)
 
-    markdown_string = markdown_template.substitute(
+    attachments = bibitem.get("attachments")
+
+    filepath = [x.get("path") for x in attachments if ".pdf" in x.get("path")][0]
+
+    markdown_string = publication_markdown_template.substitute(
         title=title,
-        html_filename=html_filename,
-        pub_date=pub_date,
+        _id=url_slug,
+        date=pub_date,
         venue=html.escape(venue),
         paperurl=paperurl,
         citation=citation,
+        filepath=filepath,
     )
 
-    collection_name = collection.get("name")
-    collections_folder = f"../_{collection_name}"
+    collections_folder = "../_publications"
 
     os.makedirs(collections_folder, exist_ok=True)
 
     with open(os.path.join(collections_folder, md_filename), "w") as f:
         f.write(markdown_string)
+
+    return markdown_string
+
+
+def generate_markdown(bibtexjson_path, configs):
+    with open(bibtexjson_path) as f:
+        bibdata = json.load(f)
+
+    bibdata_items = bibdata.get("items")
+
+    for bibitem in bibdata_items:
+        item_type = bibitem.get("itemType")
+
+        if item_type not in configs.keys():
+            print()
+            print()
+            print(
+                f"Warning. The bibitem type '{item_type}' is not implemented yet. No Markdown page was generated for:"
+            )
+            print()
+            print()
+            continue
+
+        config_item = configs.get(item_type)
+
+        # Generate Markdown page based on Item Type
+        try:
+            markdown_string = config_item.get("markdown_generator")(
+                bibitem, config_item
+            )
+            # print(markdown_string)
+        except:
+            print(bibitem.get("title"))
+            print(
+                "Error generating Markdown String. Probably some fields are missing in the bibitem."
+            )
