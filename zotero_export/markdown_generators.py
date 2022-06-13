@@ -32,9 +32,9 @@ def generate_publications_markdown(bibitem, config_item):
             f"venue: '$venue'\n"
             f"paperurl: '$paperurl'\n"
             f"citation: '$citation'\n"
-            f"filepath: '$filepath'\n"
+            # f"filepath: '$filepath'\n"
             "---\n\n"
-            f'[PDF](https://fabriz-io.github.io/$filepath){{:target="_blank"}}\n'
+            # f'[PDF](https://fabriz-io.github.io/$filepath){{:target="_blank"}}\n'
         )
     )
 
@@ -94,7 +94,7 @@ def generate_publications_markdown(bibitem, config_item):
         venue=html.escape(venue),
         paperurl=paperurl,
         citation=citation,
-        filepath=filepath,
+        # filepath=filepath,
     )
 
     collections_folder = "../_publications"
@@ -113,7 +113,7 @@ def generate_publications_markdown(bibitem, config_item):
 
 
 def generate_talks_markdown(bibitem, config_item):
-    """ """
+    """Generates Markdown page from Zotero bibitems for presentations."""
 
     # String Template to be inserted into generated Markdown file.
     publication_markdown_template = Template(
@@ -121,11 +121,11 @@ def generate_talks_markdown(bibitem, config_item):
             "---\n"
             f"title: '$title'\n"
             f"collection: 'talks'\n"
-            'type: "Talk"'
+            'type: "Talk"\n'
             f"permalink: '/talks/$_id'\n"
             f"venue: '$venue'\n"
             f"date: $date\n"
-            f"location: $location'\n"
+            f"location: $location\n"
             "---\n\n"
         )
     )
@@ -145,7 +145,7 @@ def generate_talks_markdown(bibitem, config_item):
     )
 
     _id = url_slug
-    location = bibitem.get("location")
+    location = bibitem.get("place")
 
     venuekey = config_item.get("venuekey")
 
@@ -191,9 +191,7 @@ def generate_markdown(bibtexjson_path, configs):
 
         # Generate Markdown page based on Item Type
         try:
-            markdown_string = config_item.get("markdown_generator")(
-                bibitem, config_item
-            )
+            _ = config_item.get("markdown_generator")(bibitem, config_item)
             # print(markdown_string)
         except:
             print(bibitem.get("title"))
