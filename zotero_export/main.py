@@ -22,6 +22,12 @@ configs = {
         "collection": {"name": "publications", "permalink": "/publication/"},
         "markdown_generator": generate_publications_markdown,
     },
+    "presentation": {
+        "venuekey": "meetingName",
+        "venue-pretext": "",
+        "collection": {"name": "talks", "permalink": "/talks/"},
+        "markdown_generator": generate_talks_markdown,
+    },
 }
 
 
@@ -33,9 +39,9 @@ if __name__ == "__main__":
     generate_markdown(bibtexjson_path, configs)
 
     # Copys all files into root folder for public access.
-    filefolder = "../files"
-    shutil.rmtree(filefolder, ignore_errors=True)
-    # os.makedirs(filefolder, exist_ok=True)
-    shutil.copytree("./Exported Items/files", filefolder)
+    # filefolder = "../files"
+    # shutil.rmtree(filefolder, ignore_errors=True)
+    # # os.makedirs(filefolder, exist_ok=True)
+    # shutil.copytree("./Exported Items/files", filefolder)
 
 # %%
