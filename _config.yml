@@ -7,9 +7,9 @@
 
 # Site Settings
 locale: 'en-US'
-title: 'Academic Page of Fabrizio Kuruc'
+title: 'Academic Page of Prof. Claudia Müller-Birn'
 title_separator: '-'
-name: &name 'Fabrizio Kuruc'
+name: &name 'Claudia Müller-Birn'
 description: &description 'personal description'
 url: 'https://fabriz-io.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: '' # the subpath of your site, e.g. "/blog"
@@ -78,12 +78,12 @@ analytics:
 
 # Site Author
 author:
-  name: 'Fabrizio Kuruc'
+  name: 'Prof. Claudia Müller-Birn'
   avatar: 'test.png'
-  bio: 'Trading trade-offs.'
-  location: 'Location'
+  bio: 'Your short bio'
+  location: 'Berlin'
   employer:
-  pubmed: 'https://www.ncbi.nlm.nih.gov/pubmed/?term=fabrizio+kuruc'
+  pubmed:
   googlescholar:
   email:
   researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
@@ -94,20 +94,20 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: 'fabriz-io'
+  github: 'clmb'
   google_plus:
   keybase:
   instagram:
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
   linkedin:
-  orcid: 'http://orcid.org/0000-0002-3685-1005'
+  orcid: 'https://orcid.org/0000-0002-5143-1770'
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
   steam:
   tumblr:
-  twitter:
+  twitter: 'clmbirn'
   vine:
   weibo:
   xing:
