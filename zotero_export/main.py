@@ -28,13 +28,32 @@ configs = {
         "collection": {"name": "talks", "permalink": "/talks/"},
         "markdown_generator": generate_talks_markdown,
     },
+    # ______ Below this line items where newly added, format needs to be checked
+    "bookSection": {
+        "venuekey": "publisher",
+        "venue-pretext": "In the proceedings of ",
+        "collection": {"name": "publications", "permalink": "/publication/"},
+        "markdown_generator": generate_publications_markdown,
+    },
+    "preprint": {
+        "venuekey": "publisher",
+        "venue-pretext": "",
+        "collection": {"name": "publications", "permalink": "/publication/"},
+        "markdown_generator": generate_publications_markdown,
+    },
+    "report": {
+        "venuekey": "publisher",
+        "venue-pretext": "",
+        "collection": {"name": "publications", "permalink": "/publication/"},
+        "markdown_generator": generate_publications_markdown,
+    },
 }
 
 
 # %%
 
 if __name__ == "__main__":
-    bibtexjson_path = "./Exported Items/Exported Items.json"
+    bibtexjson_path = "./my_publication_new.json"
 
     generate_markdown(bibtexjson_path, configs)
 

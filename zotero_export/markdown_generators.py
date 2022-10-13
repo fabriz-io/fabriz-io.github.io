@@ -83,9 +83,9 @@ def generate_publications_markdown(bibitem, config_item):
 
     citation = generate_citation(creators, title, venue, pub_year)
 
-    attachments = bibitem.get("attachments")
+    # attachments = bibitem.get("attachments")
 
-    filepath = [x.get("path") for x in attachments if ".pdf" in x.get("path")][0]
+    # filepath = [x.get("path") for x in attachments if ".pdf" in x.get("path")][0]
 
     markdown_string = publication_markdown_template.substitute(
         title=title,
