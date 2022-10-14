@@ -1,0 +1,3494 @@
+{
+  "collections": {},
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "localeDateOrder": "mdy",
+    "options": {
+      "exportFileData": false,
+      "exportNotes": false,
+      "keepUpdated": false
+    },
+    "preferences": {
+      "DOIandURL": "both",
+      "ascii": "",
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "autoAbbrev": false,
+      "autoAbbrevStyle": "",
+      "autoExport": "immediate",
+      "autoExportDelay": 5,
+      "autoExportIdleWait": 10,
+      "autoExportPathReplaceDiacritics": false,
+      "autoExportPathReplaceDirSep": "-",
+      "autoExportPathReplaceSpace": " ",
+      "autoPinDelay": 0,
+      "automaticTags": true,
+      "auxImport": false,
+      "baseAttachmentPath": "",
+      "biblatexExtendedDateFormat": true,
+      "biblatexExtendedNameFormat": false,
+      "biblatexExtractEprint": true,
+      "bibtexParticleNoOp": false,
+      "bibtexURL": "off",
+      "cache": true,
+      "cacheFlushInterval": 5,
+      "charmap": "",
+      "citeCommand": "cite",
+      "citekeyFold": true,
+      "citekeyFormat": "[auth:lower][shorttitle3_3][year]",
+      "citekeyFormatBackup": "",
+      "citekeySearch": true,
+      "csquotes": "",
+      "exportBibTeXStrings": "off",
+      "exportBraceProtection": true,
+      "exportTitleCase": true,
+      "extraMergeCSL": false,
+      "extraMergeCitekeys": false,
+      "extraMergeTeX": false,
+      "git": "config",
+      "import": true,
+      "importBibTeXStrings": true,
+      "importCaseProtection": "as-needed",
+      "importCitationKey": true,
+      "importExtra": true,
+      "importJabRefAbbreviations": true,
+      "importJabRefStrings": true,
+      "importSentenceCase": "on+guess",
+      "importUnknownTexCommand": "ignore",
+      "itemObserverDelay": 5,
+      "jabrefFormat": 0,
+      "jieba": false,
+      "keyConflictPolicy": "keep",
+      "keyScope": "library",
+      "kuroshiro": false,
+      "mapMath": "",
+      "mapText": "",
+      "mapUnicode": "conservative",
+      "parseParticles": true,
+      "patchDates": "",
+      "platform": "mac",
+      "postscript": "",
+      "postscriptOverride": "",
+      "preferencesOverride": "",
+      "qualityReport": false,
+      "quickCopyEta": "",
+      "quickCopyMode": "latex",
+      "quickCopyOrgMode": "zotero",
+      "quickCopyPandocBrackets": false,
+      "quickCopySelectLink": "zotero",
+      "rawImports": false,
+      "rawLaTag": "#LaTeX",
+      "relativeFilePaths": false,
+      "retainCache": false,
+      "scrubDatabase": false,
+      "separatorList": "and",
+      "separatorNames": "and",
+      "skipFields": "",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "startupProgress": "popup",
+      "strings": "",
+      "stringsOverride": "",
+      "testing": false,
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc,groups",
+      "warnBulkModify": 10,
+      "warnTitleCased": false,
+      "workers": 1
+    }
+  },
+  "items": [
+    {
+      "DOI": "10.1145/3546155.3546666",
+      "ISBN": "978-1-4503-9699-8",
+      "abstractNote": "Metaphorical design is a Participatory Design technique suitable for problem setting and concept development. The technique can be particularly constructive when designing (computer) systems in an already digitalized environment. In such contexts, designers might be tempted to draw on readily available technical solutions, thus hampering the discovery of new perspectives. Our use case is the development of a research data platform that aims to provide innovative functionality, especially for assessing and exploring digital resources. We developed a participatory workshop format adapting metaphorical design that first creates a shared understanding of the context and then guides participants to generate metaphors using a projective technique. We show how we used these metaphors to understand the participants’ model of the research data platform, to identify possible domains of activities, and to stimulate new viewpoints on the research data platform and its functionality. With this paper, we provide an application example of the adapted metaphorical design process, propose a metaphor evaluation matrix, and discuss the findings.",
+      "accessDate": "2022-10-09",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-10T05:46:23Z",
+          "dateModified": "2022-10-10T05:46:28Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/FI6IM2NA/Weiß et al_2022_Using Metaphorical Design to Reveal New Perspectives in Systems Design –.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Weiß et al_2022_Using Metaphorical Design to Reveal New Perspectives in Systems Design –.pdf",
+          "uri": "http://zotero.org/users/2267349/items/FI6IM2NA"
+        }
+      ],
+      "citationKey": "weissUsingMetaphoricalDesign2022a",
+      "citekey": "weissUsingMetaphoricalDesign2022a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Veronika",
+          "lastName": "Weiß"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sonja",
+          "lastName": "Schimmler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernhard",
+          "lastName": "Preim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "October 8, 2022",
+      "dateAdded": "2022-10-10T05:46:14Z",
+      "dateModified": "2022-10-10T05:46:14Z",
+      "itemID": 17598,
+      "itemKey": "QZPNZGTY",
+      "itemType": "conferencePaper",
+      "key": "QZPNZGTY",
+      "libraryCatalog": "ACM Digital Library",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1–11",
+      "place": "New York, NY, USA",
+      "publicationTitle": "Nordic Human-Computer Interaction Conference",
+      "publisher": "Association for Computing Machinery",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/QZPNZGTY",
+      "series": "NordiCHI '22",
+      "tags": [
+        {
+          "tag": "innovation",
+          "type": 1
+        },
+        {
+          "tag": "metaphorical design",
+          "type": 1
+        },
+        {
+          "tag": "problem-setting",
+          "type": 1
+        },
+        {
+          "tag": "systems design",
+          "type": 1
+        }
+      ],
+      "title": "Using Metaphorical Design to Reveal New Perspectives in Systems Design – Insights From a Participatory Design Workshop for Research Data Platforms",
+      "uri": "http://zotero.org/users/2267349/items/QZPNZGTY",
+      "url": "https://doi.org/10.1145/3546155.3546666",
+      "version": 7965
+    },
+    {
+      "abstractNote": "Ich bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein AbstractIch bin ein Abstract",
+      "attachments": [
+        {
+          "dateAdded": "2022-05-19T10:51:59Z",
+          "dateModified": "2022-05-19T10:51:59Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/UWJEVXYG/Müller-Birn_2022_Design Challenges for Privacy-Preserving Explanation User Interfaces.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Müller-Birn_2022_Design Challenges for Privacy-Preserving Explanation User Interfaces.pdf",
+          "uri": "http://zotero.org/users/2267349/items/UWJEVXYG"
+        }
+      ],
+      "citationKey": "muller-birnDesignChallengesPrivacyPreserving2022",
+      "citekey": "muller-birnDesignChallengesPrivacyPreserving2022",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "07.04.2022",
+      "dateAdded": "2022-05-19T10:47:23Z",
+      "dateModified": "2022-05-27T13:39:39Z",
+      "itemID": 13652,
+      "itemKey": "9S5PA6TG",
+      "itemType": "presentation",
+      "key": "9S5PA6TG",
+      "language": "German",
+      "libraryID": 1,
+      "meetingName": "2nd Virtual Meetup User-Centered Artificial Intelligence (UCAI )",
+      "notes": [],
+      "place": "Berlin",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/9S5PA6TG",
+      "tags": [],
+      "title": "Design Challenges for Privacy-Preserving Explanation User Interfaces",
+      "type": "Online Talk",
+      "uri": "http://zotero.org/users/2267349/items/9S5PA6TG",
+      "url": "https://ucai-sig.org/meetups/",
+      "version": 5404
+    },
+    {
+      "attachments": [],
+      "citationKey": "2022_franzen_am",
+      "citekey": "2022_franzen_am",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Franzen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Saskia Nuñez",
+          "lastName": "von Voigt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Sörries"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Florian",
+          "lastName": "Tschorsch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2022",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:21:27Z",
+      "extra": "Citation Key: 2022_franzen_am\nDOI: 10.48550/ARXIV.2204.04061\ntex.copyright: Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "itemID": 13973,
+      "itemKey": "X2RF8GGN",
+      "itemType": "report",
+      "key": "X2RF8GGN",
+      "libraryID": 1,
+      "notes": [],
+      "publisher": "arXiv",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/X2RF8GGN",
+      "tags": [
+        {
+          "tag": "freemove"
+        }
+      ],
+      "title": "\"Am I Private and If So, how Many?\" – using risk communication formats for making differential privacy understandable",
+      "uri": "http://zotero.org/users/2267349/items/X2RF8GGN",
+      "url": "https://arxiv.org/abs/2204.04061",
+      "version": 5975
+    },
+    {
+      "DOI": "10.1145/3543758.3549891",
+      "ISBN": "978-1-4503-9690-5",
+      "abstractNote": "Current robotic systems in surgery are telemanipulators, but the future will likely be more automated. Past and current developments literally put the robotic system at the center of the action, and force the surgical team to adapt to it. In addition to important advantages of robotic surgery, empirical studies identify serious disadvantages in sensory perception and team communication, leading to decreased situational awareness among the surgeon and the team. We therefore raise two interrelated questions: Which actors of a surgical team should be part of a controlled, semi-automated robotic assistance and how should the collaborative interaction between the actors (including the robot) be designed. Previous research has examined the situation awareness in robotic-assisted surgeries with bedside assistant, being either residents or specifically trained registered nurse first assistants, with advantages of one over the other. We built on this work by observing for the first time robotic-assisted surgeries with highly experienced bedside assistants, senior surgeons. We found that a senior surgeon in this role excelled once again, for example, through lively medical discussions and independent problem solving, and was more likely to give us clues about a thoughtful development of semi-autonomous, collaborative surgical robots. These new insights will form the basis for subsequent interviews in which surgical teams will reflect on their expectations of the robotic agency. Our overarching goal is then to translate the results into new user interface designs for robotic surgery through repeated cycles of participatory design workshops and expert evaluations.",
+      "accessDate": "2022-10-12",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-12T19:09:03Z",
+          "dateModified": "2022-10-12T19:09:04Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/6LVEGWX2/Cypko et al_2022_Towards Human-Robotic Collaboration.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Cypko et al_2022_Towards Human-Robotic Collaboration.pdf",
+          "uri": "http://zotero.org/users/2267349/items/6LVEGWX2"
+        }
+      ],
+      "citationKey": "cypkoHumanRoboticCollaborationObserving2022",
+      "citekey": "cypkoHumanRoboticCollaborationObserving2022",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Mario A.",
+          "lastName": "Cypko"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lea",
+          "lastName": "Timmermann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Igor M.",
+          "lastName": "Sauer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "September 4, 2022",
+      "dateAdded": "2022-10-12T19:08:59Z",
+      "dateModified": "2022-10-12T19:08:59Z",
+      "itemID": 17609,
+      "itemKey": "EI2LG6B9",
+      "itemType": "conferencePaper",
+      "key": "EI2LG6B9",
+      "libraryCatalog": "ACM Digital Library",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "566–571",
+      "place": "New York, NY, USA",
+      "publicationTitle": "Proceedings of Mensch und Computer 2022",
+      "publisher": "Association for Computing Machinery",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/EI2LG6B9",
+      "series": "MuC '22",
+      "shortTitle": "Towards Human-Robotic Collaboration",
+      "tags": [
+        {
+          "tag": "guiding mechanism",
+          "type": 1
+        },
+        {
+          "tag": "human-machine interaction",
+          "type": 1
+        },
+        {
+          "tag": "robotic-assisted surgery",
+          "type": 1
+        },
+        {
+          "tag": "situation awareness",
+          "type": 1
+        }
+      ],
+      "title": "Towards Human-Robotic Collaboration: Observing Teamwork of Experienced Surgeons in Robotic-Assisted Surgery",
+      "uri": "http://zotero.org/users/2267349/items/EI2LG6B9",
+      "url": "https://doi.org/10.1145/3543758.3549891",
+      "version": 8001
+    },
+    {
+      "DOI": "10.1145/3492858",
+      "abstractNote": "During a research project in which we developed a machine learning (ML) driven visualization system for non-ML experts, we reflected on interpretability research in ML, computer-supported collaborative work and human-computer interaction. We found that while there are manifold technical approaches, these often focus on ML experts and are evaluated in decontextualized empirical studies. We hypothesized that participatory design research may support the understanding of stakeholders' situated sense-making in our project, yet, found guidance regarding ML interpretability inexhaustive. Building on philosophy of technology, we formulated explanation strategies as an empirical-analytical lens explicating how technical explanations mediate the contextual preferences concerning people's interpretations. In this paper, we contribute a report of our proof-of-concept use of explanation strategies to analyze a co-design workshop with non-ML experts, methodological implications for participatory design research, design implications for explanations for non-ML experts and suggest further investigation of technological mediation theories in the ML interpretability space.",
+      "accessDate": "2022-04-05T07:24:23Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-04-05T07:24:48Z",
+          "dateModified": "2022-04-05T07:24:48Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/XSFBLJWW/Benjamin et al_2022_Explanation Strategies as an Empirical-Analytical Lens for Socio-Technical.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Benjamin et al_2022_Explanation Strategies as an Empirical-Analytical Lens for Socio-Technical.pdf",
+          "uri": "http://zotero.org/users/2267349/items/XSFBLJWW"
+        }
+      ],
+      "citationKey": "benjaminExplanationStrategiesEmpiricalAnalytical2022",
+      "citekey": "benjaminExplanationStrategiesEmpiricalAnalytical2022",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Kinkeldey"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tim",
+          "lastName": "Korjakow"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eva-Maria",
+          "lastName": "Herbst"
+        }
+      ],
+      "date": "January 14, 2022",
+      "dateAdded": "2022-04-05T07:24:23Z",
+      "dateModified": "2022-04-05T07:24:48Z",
+      "issue": "GROUP",
+      "itemID": 13471,
+      "itemKey": "CEQTS4V8",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Proc. ACM Hum.-Comput. Interact.",
+      "key": "CEQTS4V8",
+      "libraryCatalog": "January 2022",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "39:1–39:25",
+      "publicationTitle": "Proceedings of the ACM on Human-Computer Interaction",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/CEQTS4V8",
+      "tags": [
+        {
+          "tag": "participatory design",
+          "type": 1
+        },
+        {
+          "tag": "explainable machine learning",
+          "type": 1
+        },
+        {
+          "tag": "explanation strategies",
+          "type": 1
+        },
+        {
+          "tag": "post-phenomenology",
+          "type": 1
+        },
+        {
+          "tag": "subject-matter experts",
+          "type": 1
+        }
+      ],
+      "title": "Explanation Strategies as an Empirical-Analytical Lens for Socio-Technical Contextualization of Machine Learning Interpretability",
+      "uri": "http://zotero.org/users/2267349/items/CEQTS4V8",
+      "url": "https://doi.org/10.1145/3492858",
+      "version": 5085,
+      "volume": "6"
+    },
+    {
+      "DOI": "10.18420/muc2021-mci-wsc-389",
+      "attachments": [],
+      "citationKey": "soerries_privacy_2021",
+      "citekey": "soerries_privacy_2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Sörries"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katrin",
+          "lastName": "Glinka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Franziska",
+          "lastName": "Boenisch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marian",
+          "lastName": "Margraf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sabine",
+          "lastName": "Sayegh-Jodehl"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Rose"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Carolin",
+          "lastName": "Wienrich"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Philipp",
+          "lastName": "Wintersberger"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Benjamin",
+          "lastName": "Weyers"
+        }
+      ],
+      "date": "2021",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: soerries_privacy_2021",
+      "itemID": 13971,
+      "itemKey": "ZQP82H72",
+      "itemType": "conferencePaper",
+      "key": "ZQP82H72",
+      "language": "english",
+      "libraryID": 1,
+      "notes": [],
+      "place": "Bonn",
+      "publicationTitle": "Mensch und computer 2021 - workshopband",
+      "publisher": "Gesellschaft für Informatik e.V.",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/ZQP82H72",
+      "tags": [],
+      "title": "Privacy needs reflection: Conceptional design rationales for privacy-preserving explanation user interfaces",
+      "uri": "http://zotero.org/users/2267349/items/ZQP82H72",
+      "version": 5980
+    },
+    {
+      "DOI": "arXiv:2103.15462",
+      "abstractNote": "Researchers and practitioners increasingly consider a human-centered perspective in the design of machine learning-based applications, especially in the context of Explainable Artificial Intelligence (XAI). However, clear methodological guidance in this context is still missing because each new situation seems to require a new setup, which also creates different methodological challenges. Existing case study collections in XAI inspired us; therefore, we propose a similar collection of case studies for human-centered XAI that can provide methodological guidance or inspiration for others. We want to showcase our idea in this workshop by describing three case studies from our research. These case studies are selected to highlight how apparently small differences require a different set of methods and considerations. With this workshop contribution, we would like to engage in a discussion on how such a collection of case studies can provide a methodological guidance and critical reflection.",
+      "accessDate": "2021-04-16T06:30:32Z",
+      "attachments": [
+        {
+          "dateAdded": "2021-04-16T06:30:44Z",
+          "dateModified": "2021-04-16T06:30:44Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/YP8XE36T/2103.html",
+          "relations": [],
+          "tags": [],
+          "title": "arXiv.org Snapshot",
+          "uri": "http://zotero.org/users/2267349/items/YP8XE36T"
+        },
+        {
+          "dateAdded": "2021-04-16T06:30:36Z",
+          "dateModified": "2021-04-16T06:30:36Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/4FLM7LE9/Müller-Birn et al_2021_Situated Case Studies for a Human-Centered Design of Explanation User Interfaces.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Müller-Birn et al_2021_Situated Case Studies for a Human-Centered Design of Explanation User Interfaces.pdf",
+          "uri": "http://zotero.org/users/2267349/items/4FLM7LE9"
+        },
+        {
+          "dateAdded": "2021-05-10T09:14:26Z",
+          "dateModified": "2021-05-17T07:33:57Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/W3A5FA6K/Müller-Birn et al. - 2021 - Situated Case Studies for a Human-Centered Design .pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Müller-Birn et al. - 2021 - Situated Case Studies for a Human-Centered Design .pdf",
+          "uri": "http://zotero.org/users/2267349/items/W3A5FA6K"
+        }
+      ],
+      "citationKey": "muller-birnSituatedCaseStudies2021",
+      "citekey": "muller-birnSituatedCaseStudies2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katrin",
+          "lastName": "Glinka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Sörries"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Tebbe"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Susanne",
+          "lastName": "Michl"
+        }
+      ],
+      "date": "2021",
+      "dateAdded": "2021-04-16T06:30:33Z",
+      "dateModified": "2022-06-10T09:29:00Z",
+      "itemID": 11556,
+      "itemKey": "J3JY6583",
+      "itemType": "conferencePaper",
+      "key": "J3JY6583",
+      "libraryCatalog": "arXiv.org",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "Processings of the ACM CHI Workshop Human-Centered Perspectives in Explainable AI",
+      "relations": [],
+      "rights": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC-BY-NC-SA)",
+      "select": "zotero://select/library/items/J3JY6583",
+      "tags": [
+        {
+          "tag": "Computer Science - Human-Computer Interaction",
+          "type": 1
+        },
+        {
+          "tag": "myown"
+        }
+      ],
+      "title": "Situated Case Studies for a Human-Centered Design of Explanation User Interfaces",
+      "uri": "http://zotero.org/users/2267349/items/J3JY6583",
+      "url": "https://hcxai.jimdosite.com/hcxai-21-papers-and-videos/",
+      "version": 5912
+    },
+    {
+      "DOI": "10.1145/3412569.3412580",
+      "ISBN": "978-1-4503-8779-8",
+      "abstractNote": "Ensuring the quality of the content provided in online settings is an important challenge today, for example, for social media or news. The Wikipedia community has ensured the high-quality standards for an online encyclopaedia from the beginning and has built a sophisticated set of automated, semi-automated, and manual quality assurance mechanisms over the last fifteen years. The scientific community has systematically studied these mechanisms but one mechanism has been overlooked --- edit filters. Edit filters are syntactic rules that assess incoming edits, file uploads or account creations. As opposed to many other quality assurance mechanisms, edit filters are effective before a new revision is stored in the online encyclopaedia. In the exploratory study presented, we describe the role of edit filters in Wikipedia's quality assurance system. We examine how edit filters work, describe how the community governs their creation and maintenance, and look into the tasks these filters take over. Our goal is to steer researchers' attention to this quality control mechanism by pointing out directions for future studies.",
+      "accessDate": "2022-06-10",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T09:17:44Z",
+          "dateModified": "2022-06-10T09:17:44Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/TAA4ET4W/Vaseva_Müller-Birn_2020_You Shall Not Publish.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Vaseva_Müller-Birn_2020_You Shall Not Publish.pdf",
+          "uri": "http://zotero.org/users/2267349/items/TAA4ET4W"
+        }
+      ],
+      "citationKey": "vasevaYouShallNot2020",
+      "citekey": "vasevaYouShallNot2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lyudmila",
+          "lastName": "Vaseva"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "August 25, 2020",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "itemID": 13992,
+      "itemKey": "7BAU27L7",
+      "itemType": "conferencePaper",
+      "key": "7BAU27L7",
+      "libraryCatalog": "ACM Digital Library",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1–10",
+      "place": "New York, NY, USA",
+      "publicationTitle": "Proceedings of the 16th International Symposium on Open Collaboration",
+      "publisher": "Association for Computing Machinery",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/7BAU27L7",
+      "series": "OpenSym 2020",
+      "shortTitle": "You Shall Not Publish",
+      "tags": [
+        {
+          "tag": "vandalism",
+          "type": 1
+        },
+        {
+          "tag": "Wikipedia",
+          "type": 1
+        },
+        {
+          "tag": "algorithmic quality assurance",
+          "type": 1
+        },
+        {
+          "tag": "edit filters",
+          "type": 1
+        }
+      ],
+      "title": "You Shall Not Publish: Edit Filters on English Wikipedia",
+      "uri": "http://zotero.org/users/2267349/items/7BAU27L7",
+      "url": "https://doi.org/10.1145/3412569.3412580",
+      "version": 5980
+    },
+    {
+      "DOI": "arXiv: 2002.09029",
+      "accessDate": "2022-06-14T13:49:57Z",
+      "attachments": [],
+      "citationKey": "mackeprangSeekerAvoiderUser2020",
+      "citekey": "mackeprangSeekerAvoiderUser2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Maximilian",
+          "lastName": "Mackeprang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kim",
+          "lastName": "Kern"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Hadler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2020",
+      "dateAdded": "2022-06-14T13:49:57Z",
+      "dateModified": "2022-06-14T16:03:15Z",
+      "itemID": 14472,
+      "itemKey": "KAKIT59V",
+      "itemType": "preprint",
+      "key": "KAKIT59V",
+      "libraryCatalog": "DBLP Computer Science Bibliography",
+      "libraryID": 1,
+      "notes": [],
+      "publisher": "arXiv: Computing Research Repository (CoRR)",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/KAKIT59V",
+      "shortTitle": "Seeker or Avoider?",
+      "tags": [],
+      "title": "Seeker or Avoider? User Modeling for Inspiration Deployment in Large-Scale Ideation",
+      "uri": "http://zotero.org/users/2267349/items/KAKIT59V",
+      "url": "https://arxiv.org/abs/2002.09029",
+      "version": 6223
+    },
+    {
+      "attachments": [],
+      "citationKey": "glinka_investigating_2020",
+      "citekey": "glinka_investigating_2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Katrin",
+          "lastName": "Glinka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Patrick Tobias",
+          "lastName": "Fischer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "S.",
+          "lastName": "Krohn"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Johann Habakuk",
+          "lastName": "Israel"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Christian",
+          "lastName": "Kassung"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jürgen",
+          "lastName": "Sieck"
+        }
+      ],
+      "date": "2020",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:21:40Z",
+      "edition": "1",
+      "extra": "Citation Key: glinka_investigating_2020",
+      "itemID": 13967,
+      "itemKey": "MIKGNKN4",
+      "itemType": "bookSection",
+      "key": "MIKGNKN4",
+      "language": "english",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "231–255",
+      "place": "Berlin",
+      "publicationTitle": "Kultur und informatik: Extended reality",
+      "publisher": "vwh",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/MIKGNKN4",
+      "tags": [],
+      "title": "Investigating modes of activity and guidance for mediating museum exhibits in mixed reality",
+      "uri": "http://zotero.org/users/2267349/items/MIKGNKN4",
+      "url": "https://www.katringlinka.de/downloads/KuI_Glinka_et_al_2020.pdf",
+      "version": 5976
+    },
+    {
+      "attachments": [],
+      "citationKey": "benjamin2020examining",
+      "citekey": "benjamin2020examining",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Simon",
+          "lastName": "Razniewski"
+        }
+      ],
+      "date": "2020",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:20:53Z",
+      "extra": "Citation Key: benjamin2020examining\narXiv: 2009.09049",
+      "itemID": 13966,
+      "itemKey": "D62KQEVA",
+      "itemType": "report",
+      "key": "D62KQEVA",
+      "language": "English",
+      "libraryID": 1,
+      "notes": [],
+      "number": "arXiv:2009.09049",
+      "publisher": "arXiV",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/D62KQEVA",
+      "tags": [
+        {
+          "tag": "wikidata"
+        }
+      ],
+      "title": "Examining the impact of algorithm awareness on wikidata's recommender system recoin",
+      "uri": "http://zotero.org/users/2267349/items/D62KQEVA",
+      "url": "https://arxiv.org/pdf/2009.09049.pdf",
+      "version": 5973
+    },
+    {
+      "DOI": "10.18420/muc2020-ws109-287",
+      "accessDate": "2022-06-10T09:19:33Z",
+      "attachments": [],
+      "citationKey": "benjaminParticipatoryDesignMachine2020",
+      "citekey": "benjaminParticipatoryDesignMachine2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Kinkeldey"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2020",
+      "dateAdded": "2022-06-10T09:19:33Z",
+      "dateModified": "2022-10-12T19:06:08Z",
+      "extra": "Accepted: 2020-08-18T15:19:56Z\nPublisher: Gesellschaft für Informatik e.V.",
+      "itemID": 13994,
+      "itemKey": "KH773FDY",
+      "itemType": "conferencePaper",
+      "key": "KH773FDY",
+      "language": "en",
+      "libraryCatalog": "dl.gi.de",
+      "libraryID": 1,
+      "notes": [],
+      "place": "Bonn",
+      "publicationTitle": "Mensch und Computer 2020 - Workshopband",
+      "publisher": "Gesellschaft für Informatik e.V.",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/KH773FDY",
+      "tags": [],
+      "title": "Participatory Design of a Machine Learning Driven Visualization System for Non-Technical Stakeholders",
+      "uri": "http://zotero.org/users/2267349/items/KH773FDY",
+      "url": "http://dl.gi.de/handle/20.500.12116/33538",
+      "version": 8000
+    },
+    {
+      "attachments": [],
+      "citationKey": "mueller-birn_bots_2019",
+      "citekey": "mueller-birn_bots_2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: mueller-birn_bots_2019\nDOI: 10.17169/refubium-2535\nVolume: Technical Report, Freie Universität Universität, Fachbereich Mathematik und Informatik\ntex.copyright: All rights reserved",
+      "itemID": 13964,
+      "itemKey": "TZ8B8QXL",
+      "itemType": "report",
+      "key": "TZ8B8QXL",
+      "libraryID": 1,
+      "notes": [],
+      "publisher": "Freie Universität Berlin",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/TZ8B8QXL",
+      "tags": [],
+      "title": "Bots in wikipedia: Unfolding their duties",
+      "type": "Technical Report",
+      "uri": "http://zotero.org/users/2267349/items/TZ8B8QXL",
+      "version": 5980
+    },
+    {
+      "attachments": [],
+      "citationKey": "mackeprang_impact_2019",
+      "citekey": "mackeprang_impact_2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Maximilian",
+          "lastName": "Mackeprang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Abderrahmane",
+          "lastName": "Khiat"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maximilian",
+          "lastName": "Stauss"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tjark Sascha",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: mackeprang_impact_2019\nDOI: 10.17169/refubium-3971",
+      "itemID": 13962,
+      "itemKey": "ACQGDPX9",
+      "itemType": "report",
+      "key": "ACQGDPX9",
+      "libraryID": 1,
+      "notes": [],
+      "number": "TR-B-19-03",
+      "place": "Berlin",
+      "publisher": "Freie Universität Berlin",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/ACQGDPX9",
+      "tags": [
+        {
+          "tag": "I2M"
+        }
+      ],
+      "title": "The impact of concept representation in interactive concept validation (ICV)",
+      "type": "Technical Report",
+      "uri": "http://zotero.org/users/2267349/items/ACQGDPX9",
+      "version": 5979
+    },
+    {
+      "DOI": "10.1145/3359297",
+      "abstractNote": "Interactive intelligent systems, i.e., interactive systems that employ AI technologies, are currently present in many parts of our social, public and political life. An issue reoccurring often in t...",
+      "attachments": [
+        {
+          "dateAdded": "2021-04-10T13:39:23Z",
+          "dateModified": "2021-04-10T13:39:23Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/W8C5BP9P/Proceedings of the ACM on Human-Computer Interaction 2019 MackeprangMaximilian.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Proceedings of the ACM on Human-Computer Interaction 2019 MackeprangMaximilian",
+          "uri": "http://zotero.org/users/2267349/items/W8C5BP9P"
+        }
+      ],
+      "citationKey": "mackeprangDiscoveringSweetSpot2019",
+      "citekey": "mackeprangDiscoveringSweetSpot2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "",
+          "lastName": "Mackeprang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maximilian Timo",
+          "lastName": "Stauss"
+        }
+      ],
+      "date": "November 7, 2019",
+      "dateAdded": "2021-04-10T13:39:22Z",
+      "dateModified": "2021-08-10T13:40:54Z",
+      "extra": "Publisher: ACM",
+      "itemID": 10012,
+      "itemKey": "IKLWXANZ",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Proceedings of the ACM on Human-Computer Interaction",
+      "key": "IKLWXANZ",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "Proceedings of the ACM on Human-Computer Interaction",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/IKLWXANZ",
+      "tags": [],
+      "title": "Discovering the Sweet Spot of Human-Computer Configurations",
+      "uri": "http://zotero.org/users/2267349/items/IKLWXANZ",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3359297",
+      "version": 7040
+    },
+    {
+      "attachments": [],
+      "citationKey": "korjakow_literature_2019",
+      "citekey": "korjakow_literature_2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Tim",
+          "lastName": "Korjakow"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Kinkeldey"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: korjakow_literature_2019\ntex.copyright: All rights reserved",
+      "itemID": 13963,
+      "itemKey": "59TKQHFW",
+      "itemType": "report",
+      "key": "59TKQHFW",
+      "libraryID": 1,
+      "notes": [],
+      "number": "TR-B-19-04",
+      "place": "Berlin",
+      "publisher": "Freie Universität Berlin",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/59TKQHFW",
+      "tags": [],
+      "title": "Literature mapping study for machine learning interpretability techniques",
+      "type": "Technical report",
+      "uri": "http://zotero.org/users/2267349/items/59TKQHFW",
+      "url": "https://osf.io/t4q9s/download",
+      "version": 5980
+    },
+    {
+      "attachments": [],
+      "citationKey": "kinkeldey_precall_2019",
+      "citekey": "kinkeldey_precall_2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Kinkeldey"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tom",
+          "lastName": "Gülenman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aaron",
+          "lastName": "Halfaker"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: kinkeldey_precall_2019",
+      "itemID": 13958,
+      "itemKey": "A8DV5WH3",
+      "itemType": "conferencePaper",
+      "key": "A8DV5WH3",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "HCML Perspectives Workshop at CHI 2019",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/A8DV5WH3",
+      "tags": [
+        {
+          "tag": "Ikon"
+        }
+      ],
+      "title": "PreCall: A Visual Interface for Threshold Optimization in ML Model Selection",
+      "uri": "http://zotero.org/users/2267349/items/A8DV5WH3",
+      "url": "https://arxiv.org/pdf/1907.05131.pdf",
+      "version": 5979
+    },
+    {
+      "DOI": "10.1145/3306446.3340833",
+      "attachments": [],
+      "citationKey": "farda-sarbas_approving_2019",
+      "citekey": "farda-sarbas_approving_2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Mariam",
+          "lastName": "Farda-Sarbas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hong",
+          "lastName": "Zhu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marisa Frizzi",
+          "lastName": "Nest"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:21:27Z",
+      "extra": "Citation Key: farda-sarbas_approving_2019",
+      "itemID": 13959,
+      "itemKey": "G5P94DNK",
+      "itemType": "conferencePaper",
+      "key": "G5P94DNK",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "1-10",
+      "place": "Skövde, Sweden",
+      "publicationTitle": "Proceedings of the 15th International Symposium on Open Collaboration",
+      "publisher": "ACM",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/G5P94DNK",
+      "series": "OpenSym '19",
+      "tags": [],
+      "title": "Approving automation: Analyzing requests for permissions of bots in wikidata",
+      "uri": "http://zotero.org/users/2267349/items/G5P94DNK",
+      "version": 5975
+    },
+    {
+      "abstractNote": "Wikidata is one of the most edited knowledge bases which contains structured data. It serves as the data source for many projects in the Wikimedia sphere and beyond. Since its inception in October 2012, it has been increasingly growing in term of both its community and its content. This growth is reflected by an expanding number of research focusing on Wikidata. Our study aims to provide a general overview of the research performed on Wikidata through a systematic mapping study in order to identify the current topical coverage of existing research as well as the white spots which need further investigation. In this study, 67 peer-reviewed research from journals and conference proceedings were selected, and classified into meaningful categories. We describe this data set descriptively by showing the publication frequency, the publication venue and the origin of the authors and reveal current research focuses. These especially include aspects concerning data quality, including questions related to language coverage and data integrity. These results indicate a number of future research directions, such as, multilingualism and overcoming language gaps, the impact of plurality on the quality of Wikidata's data, Wikidata's potential in various disciplines, and usability of user interface.",
+      "accessDate": "2022-06-10T09:05:41Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T09:05:52Z",
+          "dateModified": "2022-06-10T09:05:52Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/LBFYRX5S/1908.html",
+          "relations": [],
+          "tags": [],
+          "title": "arXiv.org Snapshot",
+          "uri": "http://zotero.org/users/2267349/items/LBFYRX5S"
+        },
+        {
+          "dateAdded": "2022-06-10T09:05:46Z",
+          "dateModified": "2022-06-10T09:05:46Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/VKRXZTXG/Farda-Sarbas_Müller-Birn_2019_Wikidata from a Research Perspective -- A Systematic Mapping Study of Wikidata.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Farda-Sarbas_Müller-Birn_2019_Wikidata from a Research Perspective -- A Systematic Mapping Study of Wikidata.pdf",
+          "uri": "http://zotero.org/users/2267349/items/VKRXZTXG"
+        }
+      ],
+      "citationKey": "farda-sarbasWikidataResearchPerspective2019",
+      "citekey": "farda-sarbasWikidataResearchPerspective2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Mariam",
+          "lastName": "Farda-Sarbas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T09:05:41Z",
+      "dateModified": "2022-06-10T09:31:57Z",
+      "extra": "DOI: 10.48550/arXiv.1908.11153\narXiv:1908.11153 [cs]\ntype: article",
+      "itemID": 13989,
+      "itemKey": "EGSMRTCS",
+      "itemType": "report",
+      "key": "EGSMRTCS",
+      "libraryCatalog": "arXiv.org",
+      "libraryID": 1,
+      "notes": [],
+      "number": "arXiv:1908.11153",
+      "publisher": "arXiv",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/EGSMRTCS",
+      "tags": [
+        {
+          "tag": "Computer Science - Computers and Society",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Social and Information Networks",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Digital Libraries",
+          "type": 1
+        }
+      ],
+      "title": "Wikidata from a Research Perspective -- A Systematic Mapping Study of Wikidata",
+      "uri": "http://zotero.org/users/2267349/items/EGSMRTCS",
+      "url": "http://arxiv.org/abs/1908.11153",
+      "version": 5917
+    },
+    {
+      "attachments": [],
+      "citationKey": "benjamin_understanding_2019",
+      "citekey": "benjamin_understanding_2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Kinkeldey"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:20:53Z",
+      "extra": "Citation Key: benjamin_understanding_2019\nDOI: 10.17169/refubium-3970",
+      "itemID": 13957,
+      "itemKey": "LFF3J3MN",
+      "itemType": "report",
+      "key": "LFF3J3MN",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "number": "TR-B-19-02",
+      "place": "Berlin",
+      "publisher": "Freie Universität Berlin",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/LFF3J3MN",
+      "tags": [
+        {
+          "tag": "Ikon"
+        }
+      ],
+      "title": "Understanding Knowledge Transfer Activities at a Research Institution through Semi-Structured Interviews",
+      "type": "Technical Report",
+      "uri": "http://zotero.org/users/2267349/items/LFF3J3MN",
+      "version": 5973
+    },
+    {
+      "attachments": [],
+      "citationKey": "benjamin_zwischen_2019",
+      "citekey": "benjamin_zwischen_2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Séverine",
+          "lastName": "Marguin"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Henrike",
+          "lastName": "Rabe"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Wolfgang",
+          "lastName": "Schäffner"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Friedrich",
+          "lastName": "Schmidgall"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:20:53Z",
+      "extra": "Citation Key: benjamin_zwischen_2019",
+      "itemID": 13955,
+      "itemKey": "ZQ6SATL4",
+      "itemType": "bookSection",
+      "key": "ZQ6SATL4",
+      "language": "german",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "215–226",
+      "place": "Bielefeld",
+      "publicationTitle": "Experimentieren: Einblicke in Praktiken und Versuchsaufbauten zwischen Wissenschaft und Gestaltung",
+      "publisher": "transcript Verlag",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/ZQ6SATL4",
+      "tags": [],
+      "title": "Zwischen Mensch und Technik. Das Experiment in der Informatik",
+      "uri": "http://zotero.org/users/2267349/items/ZQ6SATL4",
+      "url": "https://www.transcript-verlag.de/media/pdf/2e/c8/71/oa9783839446386.pdf",
+      "version": 5973
+    },
+    {
+      "DOI": "10.1145/3301019.3323900",
+      "attachments": [],
+      "citationKey": "benjamin_materializing_2019",
+      "citekey": "benjamin_materializing_2019",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2019",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:20:53Z",
+      "extra": "Citation Key: benjamin_materializing_2019\ntex.copyright: All rights reserved",
+      "itemID": 13956,
+      "itemKey": "U5AJBF2D",
+      "itemType": "conferencePaper",
+      "key": "U5AJBF2D",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "place": "New York, NY",
+      "publicationTitle": "Proceedings of the 2019 ACM Conference Companion Publication on Designing Interactive Systems. DIS ’19 Companion",
+      "publisher": "ACM",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/U5AJBF2D",
+      "series": "DIS'19 Companion",
+      "tags": [
+        {
+          "tag": "Ikon"
+        }
+      ],
+      "title": "Materializing Interpretability: Probing Meaning in Algorithmic Systems",
+      "uri": "http://zotero.org/users/2267349/items/U5AJBF2D",
+      "version": 5973
+    },
+    {
+      "accessDate": "2022-09-30T08:55:33Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-09-30T08:55:42Z",
+          "dateModified": "2022-09-30T08:55:42Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/KPNUQB2S/31981.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/2267349/items/KPNUQB2S"
+        }
+      ],
+      "citationKey": "muller-birnHumanCenteredDataScience2018",
+      "citekey": "muller-birnHumanCenteredDataScience2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-09-30T08:55:33Z",
+      "dateModified": "2022-10-12T19:15:38Z",
+      "extra": "Accepted: 2020-04-20T10:10:56Z\nPublisher: Gesellschaft für Informatik e.V.",
+      "itemID": 17583,
+      "itemKey": "U446CWQS",
+      "itemType": "journalArticle",
+      "key": "U446CWQS",
+      "language": "de",
+      "libraryCatalog": "dl.gi.de",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "3-5",
+      "publicationTitle": "Frauen machen Informatik - Magazin der Fachgruppe Frauen und Informatik",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/U446CWQS",
+      "tags": [],
+      "title": "Human-Centered Data Science zur Gestaltung algorithmischer Softwaresysteme",
+      "uri": "http://zotero.org/users/2267349/items/U446CWQS",
+      "url": "http://dl.gi.de/handle/20.500.12116/31981",
+      "version": 8008,
+      "volume": "42"
+    },
+    {
+      "DOI": "10.1145/3170427.3188485",
+      "attachments": [],
+      "citationKey": "mackeprang_concept_2018",
+      "citekey": "mackeprang_concept_2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Maximilian",
+          "lastName": "Mackeprang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Abderrahmane",
+          "lastName": "Khiat"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: mackeprang_concept_2018",
+      "itemID": 13950,
+      "itemKey": "GEK694TX",
+      "itemType": "conferencePaper",
+      "key": "GEK694TX",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "LBW033:1–LBW033:6",
+      "publicationTitle": "Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems",
+      "publisher": "ACM",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/GEK694TX",
+      "series": "CHI EA '18",
+      "tags": [
+        {
+          "tag": "I2M"
+        }
+      ],
+      "title": "Concept Validation during Collaborative Ideation and Its Effect on Ideation Outcome",
+      "uri": "http://zotero.org/users/2267349/items/GEK694TX",
+      "version": 5979
+    },
+    {
+      "DOI": "10.22032/dbt.37803",
+      "attachments": [],
+      "citationKey": "loffler_unfolding_2018",
+      "citekey": "loffler_unfolding_2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Felicitas",
+          "lastName": "Löffler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tina",
+          "lastName": "Astor"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: loffler_unfolding_2018",
+      "itemID": 13951,
+      "itemKey": "9GGZJ5B7",
+      "itemType": "conferencePaper",
+      "key": "9GGZJ5B7",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "10th International Conference on Ecological Informatics-Translating Ecological Data into Knowledge and Decisions in a Rapidly Changing World",
+      "publisher": "Friedrich-Schiller-Universität Jena",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/9GGZJ5B7",
+      "tags": [],
+      "title": "Unfolding existing Data Publication Practice in Research Data Workflows in the Biological and Environmental Sciences–First Results from a Survey",
+      "uri": "http://zotero.org/users/2267349/items/9GGZJ5B7",
+      "version": 5979
+    },
+    {
+      "DOI": "10.1145/3272973.3274059",
+      "attachments": [
+        {
+          "dateAdded": "2021-04-10T13:39:24Z",
+          "dateModified": "2022-06-10T08:28:16Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/PNR5PF3V/2018 Hong.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "2018 Hong",
+          "uri": "http://zotero.org/users/2267349/items/PNR5PF3V"
+        }
+      ],
+      "citationKey": "hong_coordinating_2018",
+      "citekey": "hong_coordinating_2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ming-Tung",
+          "lastName": "Hong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2021-04-10T13:39:24Z",
+      "dateModified": "2022-06-11T21:22:07Z",
+      "extra": "Citation Key: hong_coordinating_2018",
+      "itemID": 13947,
+      "itemKey": "6TFGUCIN",
+      "itemType": "conferencePaper",
+      "key": "6TFGUCIN",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "217–220",
+      "place": "New York, NY",
+      "publicationTitle": "Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "publisher": "ACM",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/6TFGUCIN",
+      "series": "CSCW'18",
+      "tags": [
+        {
+          "tag": "Ikon"
+        }
+      ],
+      "title": "Coordinating Agents: Promoting Shared Situational Awareness in Collaborative Sensemaking",
+      "uri": "http://zotero.org/users/2267349/items/6TFGUCIN",
+      "version": 5977
+    },
+    {
+      "DOI": "10.1145/3272973.3274059",
+      "attachments": [],
+      "citationKey": "hongCoordinatingAgentsPromoting2018",
+      "citekey": "hongCoordinatingAgentsPromoting2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ming-Tung",
+          "lastName": "Hong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "January 1, 2018",
+      "dateAdded": "2021-04-10T13:39:24Z",
+      "dateModified": "2022-06-11T21:22:07Z",
+      "itemID": 10020,
+      "itemKey": "9MYGRQCM",
+      "itemType": "conferencePaper",
+      "key": "9MYGRQCM",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "217-220",
+      "place": "New York, New York, USA",
+      "publicationTitle": "CSCW Companion",
+      "publisher": "ACM Press",
+      "relations": [],
+      "select": "zotero://select/library/items/9MYGRQCM",
+      "tags": [],
+      "title": "Coordinating Agents - Promoting Shared Situational Awareness in Collaborative Sensemaking.",
+      "uri": "http://zotero.org/users/2267349/items/9MYGRQCM",
+      "url": "http://dl.acm.org/citation.cfm?doid=3272973.3274059",
+      "version": 6460
+    },
+    {
+      "DOI": "10.18420/muc2017-mci-0231",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T08:43:33Z",
+          "dateModified": "2022-06-10T08:43:33Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/S7ZAYHVB/Breitenfeld et al_2018_Enabling Structured Data Generation by Nontechnical Experts.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Breitenfeld et al_2018_Enabling Structured Data Generation by Nontechnical Experts.pdf",
+          "uri": "http://zotero.org/users/2267349/items/S7ZAYHVB"
+        },
+        {
+          "dateAdded": "2022-06-10T08:43:39Z",
+          "dateModified": "2022-06-10T08:43:39Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/3AWBCJUI/books.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/2267349/items/3AWBCJUI"
+        }
+      ],
+      "citationKey": "breitenfeldEnablingStructuredData2018",
+      "citekey": "breitenfeldEnablingStructuredData2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Andre",
+          "lastName": "Breitenfeld"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maximilian",
+          "lastName": "Mackeprang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ming-Tung",
+          "lastName": "Hong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-06-10T08:43:32Z",
+      "dateModified": "2022-06-10T08:46:20Z",
+      "itemID": 13986,
+      "itemKey": "DVQR4PIC",
+      "itemType": "conferencePaper",
+      "key": "DVQR4PIC",
+      "libraryCatalog": "Google Scholar",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "181–192",
+      "place": "Regensburg",
+      "publicationTitle": "Proceedings of Mensch und Computer 2017 - Tagungsband: Spielend einfach interagieren",
+      "publisher": "Gesellschaft für Informatik e.V.",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/DVQR4PIC",
+      "series": "Digitale Bibliothek der Gesellschaft für Informatik",
+      "tags": [],
+      "title": "Enabling Structured Data Generation by Nontechnical Experts",
+      "uri": "http://zotero.org/users/2267349/items/DVQR4PIC",
+      "version": 5844,
+      "volume": "17"
+    },
+    {
+      "DOI": "10.1515/icom-2018-0005",
+      "ISSN": "2196-6826",
+      "abstractNote": "Semantic technologies provide meaning to information resources in the form of machine-accessible structured data. Research over the past two decades has commonly focused on tools and interfaces for technical experts, leading to various usability problems regarding users unfamiliar with the underlying technologies – so-called nontechnical experts. Existing approaches to semantic technologies consider mostly consumers of structured data and leave out the creation perspective. In this work, we focus on the usability of creating structured data from textual resources, especially the creation of relations between entities. The research was conducted in collaboration with scholars from the humanities. We review existing research on the usability of semantic technologies and the state of the art of annotation tools to identify shortcomings. Subsequently we use the knowledge gained to propose a new interaction design for the creation of relations between entities to create structured data in the subject-predicate-object form. We implemented our interaction design and conducted a user study which showed that the proposal performed well, making it a contribution to enhance the overall usability in this field. However, this research provides an example of how technically sophisticated technology needs to be “translated” to make it usable for nontechnical experts. We need to extend this perspective in the future by providing more insight into the internal functioning of semantic technologies.",
+      "accessDate": "2022-06-10T11:37:07Z",
+      "attachments": [],
+      "citationKey": "breitenfeldGeneratingStructuredData2018",
+      "citekey": "breitenfeldGeneratingStructuredData2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Andre",
+          "lastName": "Breitenfeld"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Florian",
+          "lastName": "Berger"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ming-Tung",
+          "lastName": "Hong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maximilian",
+          "lastName": "Mackeprang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-06-10T11:37:07Z",
+      "dateModified": "2022-06-10T11:37:59Z",
+      "extra": "Publisher: Oldenbourg Wissenschaftsverlag",
+      "issue": "1",
+      "itemID": 13996,
+      "itemKey": "N9M5N85L",
+      "itemType": "journalArticle",
+      "key": "N9M5N85L",
+      "language": "en",
+      "libraryCatalog": "www.degruyter.com",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "25-40",
+      "publicationTitle": "i-com",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/N9M5N85L",
+      "tags": [
+        {
+          "tag": "Semantic Technologies",
+          "type": 1
+        },
+        {
+          "tag": "Semantic Web",
+          "type": 1
+        },
+        {
+          "tag": "Structured Data",
+          "type": 1
+        },
+        {
+          "tag": "Usability",
+          "type": 1
+        }
+      ],
+      "title": "Generating Structured Data by Nontechnical Experts in Research Settings",
+      "uri": "http://zotero.org/users/2267349/items/N9M5N85L",
+      "url": "https://www.degruyter.com/document/doi/10.1515/icom-2018-0005/html",
+      "version": 5927,
+      "volume": "17"
+    },
+    {
+      "attachments": [],
+      "citationKey": "benjamin_designing_2018",
+      "citekey": "benjamin_designing_2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Simon",
+          "lastName": "Razniewski"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:20:53Z",
+      "extra": "Citation Key: benjamin_designing_2018",
+      "itemID": 13954,
+      "itemKey": "WRJVFURF",
+      "itemType": "conferencePaper",
+      "key": "WRJVFURF",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "place": "Potsdam, Germany",
+      "publicationTitle": "InformationPlus",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/WRJVFURF",
+      "tags": [
+        {
+          "tag": "Ikon"
+        }
+      ],
+      "title": "Designing for Algorithm Awareness in Peer Production Systems",
+      "uri": "http://zotero.org/users/2267349/items/WRJVFURF",
+      "url": "http://informationplusconference.com/2018/",
+      "version": 6460
+    },
+    {
+      "attachments": [],
+      "citationKey": "benjamin_transparency_2018",
+      "citekey": "benjamin_transparency_2018",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jesse Josua",
+          "lastName": "Benjamin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rony",
+          "lastName": "Ginosar"
+        }
+      ],
+      "date": "2018",
+      "dateAdded": "2022-06-10T07:42:06Z",
+      "dateModified": "2022-06-11T21:20:53Z",
+      "extra": "Citation Key: benjamin_transparency_2018",
+      "itemID": 13948,
+      "itemKey": "93IIZM3P",
+      "itemType": "conferencePaper",
+      "key": "93IIZM3P",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "Workshop 'Participation + Algorithms'",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/93IIZM3P",
+      "tags": [
+        {
+          "tag": "Ikon"
+        }
+      ],
+      "title": "Transparency and the Mediation of Meaning in Algorithmic Systems",
+      "uri": "http://zotero.org/users/2267349/items/93IIZM3P",
+      "url": "https://www.researchgate.net/publication/328420371_Transparency_and_the_Mediation_of_Meaning_in_Algorithmic_Systems",
+      "version": 5973
+    },
+    {
+      "attachments": [],
+      "citationKey": "mueller-birn_using_2017",
+      "citekey": "mueller-birn_using_2017",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guangtao",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Carsten",
+          "lastName": "Busch"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Christian",
+          "lastName": "Kassung"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jürgen",
+          "lastName": "Sieck"
+        }
+      ],
+      "date": "2017",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: mueller-birn_using_2017",
+      "itemID": 13940,
+      "itemKey": "5KARBEUQ",
+      "itemType": "bookSection",
+      "key": "5KARBEUQ",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "45–50",
+      "place": "Glückstadt",
+      "publicationTitle": "Kultur und Informatik (XV): \"Mixed Reality\"",
+      "publisher": "Verlag Werner Hülsbusch (vwh)",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/5KARBEUQ",
+      "tags": [
+        {
+          "tag": "hkx"
+        }
+      ],
+      "title": "Using the power of the Web in Mixed Reality",
+      "uri": "http://zotero.org/users/2267349/items/5KARBEUQ",
+      "url": "http://www.vwh-verlag.de/vwh/wp-content/uploads/2017/05/titelei_kui_2017.pdf",
+      "version": 5979
+    },
+    {
+      "DOI": "10.1007/978-3-319-70407-4_19",
+      "attachments": [],
+      "citationKey": "loeffler_honey_2017",
+      "citekey": "loeffler_honey_2017",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Felicitas",
+          "lastName": "Löffler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kobkaew",
+          "lastName": "Opasjumruskit"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Naouel",
+          "lastName": "Karam"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Fichtmüller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Uwe",
+          "lastName": "Schindler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Friederike",
+          "lastName": "Klan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Diepenbroek"
+        }
+      ],
+      "date": "2017",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: loeffler_honey_2017",
+      "itemID": 13939,
+      "itemKey": "5629TAMG",
+      "itemType": "conferencePaper",
+      "key": "5629TAMG",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "98–103",
+      "place": "Heidelberg",
+      "publicationTitle": "The Semantic Web: ESWC 2017 Satellite Events",
+      "publisher": "Springer",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/5629TAMG",
+      "series": "Lecture Notes in Computer Science (LNCS)",
+      "tags": [
+        {
+          "tag": "gfbio"
+        }
+      ],
+      "title": "Honey Bee Versus Apis Mellifera: A Semantic Search for Biological Data",
+      "uri": "http://zotero.org/users/2267349/items/5629TAMG",
+      "version": 5979,
+      "volume": "10577"
+    },
+    {
+      "DOI": "10.11588/heibooks.285.377",
+      "attachments": [],
+      "citationKey": "karam_gfbio_2017",
+      "citekey": "karam_gfbio_2017",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Naouel",
+          "lastName": "Karam"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Lorenz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jonas und Vincent Heuveline",
+          "lastName": "Kratzke"
+        }
+      ],
+      "date": "2017",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: karam_gfbio_2017",
+      "itemID": 13938,
+      "itemKey": "EW5QS88F",
+      "itemType": "conferencePaper",
+      "key": "EW5QS88F",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "75–88",
+      "place": "Heidelberg",
+      "publicationTitle": "E-Science-Tage 2017: Forschungsdaten managen",
+      "publisher": "heiBOOKS",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/EW5QS88F",
+      "tags": [
+        {
+          "tag": "gfbio"
+        }
+      ],
+      "title": "The GFBio Terminology Service: enabling research data management beyond data heterogeneity",
+      "uri": "http://zotero.org/users/2267349/items/EW5QS88F",
+      "version": 5979
+    },
+    {
+      "DOI": "10.18420/muc2017-ws08-0347",
+      "attachments": [],
+      "citationKey": "hoffmeister_toward_2017",
+      "citekey": "hoffmeister_toward_2017",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Anouk",
+          "lastName": "Hoffmeister"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Florian",
+          "lastName": "Berger"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Pogorzhelskiy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Guangtao",
+          "lastName": "Zhang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Carola",
+          "lastName": "Zwick"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Manuel",
+          "lastName": "Burghardt"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Raphael",
+          "lastName": "Wimmer"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Christian",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Christa",
+          "lastName": "Womser-Hacker"
+        }
+      ],
+      "date": "2017",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-11T21:22:07Z",
+      "extra": "Citation Key: hoffmeister_toward_2017",
+      "itemID": 13941,
+      "itemKey": "58KDVVLI",
+      "itemType": "conferencePaper",
+      "key": "58KDVVLI",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "395–400",
+      "place": "Regensburg",
+      "publicationTitle": "Mensch und Computer 2017-Workshopband: Spielend einfach interagieren",
+      "publisher": "Gesellschaft für Informatik / BoD",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/58KDVVLI",
+      "tags": [
+        {
+          "tag": "hkx"
+        }
+      ],
+      "title": "Toward Cyber-Physical Research Practice based on Mixed Reality",
+      "uri": "http://zotero.org/users/2267349/items/58KDVVLI",
+      "version": 5977,
+      "volume": "13"
+    },
+    {
+      "attachments": [],
+      "citationKey": "fichtmueller_terminologies_2017",
+      "citekey": "fichtmueller_terminologies_2017",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Fichtmüller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maren",
+          "lastName": "Gleisberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Naouel",
+          "lastName": "Karam"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anton",
+          "lastName": "Güntsch"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Alsayed",
+          "lastName": "Algergawy"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Naouel",
+          "lastName": "Karam"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Friederike",
+          "lastName": "Klan"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Clément",
+          "lastName": "Jonquet"
+        }
+      ],
+      "date": "2017",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-11T21:21:27Z",
+      "extra": "Citation Key: fichtmueller_terminologies_2017",
+      "itemID": 13942,
+      "itemKey": "FL88JBW7",
+      "itemType": "conferencePaper",
+      "key": "FL88JBW7",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "place": "Wien",
+      "publicationTitle": "Proceedings of the 2nd International Workshop on Semantics for Biodiversity co-located with 16th International Semantic Web Conference (ISWC 2017), Vienna, Austria, October 22nd, 2017",
+      "publisher": "CEUR-WS.org",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/FL88JBW7",
+      "series": "CEUR Workshop Proceedings",
+      "tags": [
+        {
+          "tag": "gfbio"
+        }
+      ],
+      "title": "Terminologies as a Neglected Part of Research Data: Making Supplementary Research Data Available through the GFBio Terminology Service",
+      "uri": "http://zotero.org/users/2267349/items/FL88JBW7",
+      "url": "http://ceur-ws.org/Vol-1933/poster-paper-8.pdf",
+      "version": 5975,
+      "volume": "1933"
+    },
+    {
+      "DOI": "10.18420/muc2016-mci-0114",
+      "abstractNote": "Digitale Werkzeuge haben zu umfassenden Veränderungen der Forschungspraxis geführt. Die hier vorgestellte Studie gibt einen ersten Einblick in digitale geisteswissenschaftliche Forschungspraktiken. Im Rahmen einer geographisch begrenzten Umfrage wurde erfasst, in welchen Arbeitsbereichen von GeisteswissenschaftlerInnen neuere Informations- und Kommunikationstechnologien (IKT) unter welchen Bedingungen und mit welchen Zielen eingesetzt werden. Die Ergebnisse erlauben es, den Umfang des Softwareeinsatzes in der Forschungspraxis einzuschätzen, einen Zusammenhang zwischen dem Softwareeinsatz und den bestehenden Forschungskontexten herzustellen und typische Softwarenutzungsmuster zu bestimmen. Diese Ergebnisse werden für die Ableitung von Hypothesen genutzt, um zukünftigen Forschungsbedarf und die aus der Studie resultierende weitere Vorgehensweise aufzuzeigen. Das übergeordnete Ziel der Studie ist es, digitale Werkzeuge bei deren Gestaltung noch nachhaltiger auf die spezifischen Anforderungen der Forschungsarbeit auszurichten.",
+      "accessDate": "2022-06-10T08:17:17Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T08:17:19Z",
+          "dateModified": "2022-06-10T08:17:19Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/8RMK82PC/Müller-Birn et al_2016_Softwarenutzung in der geisteswissenschaftlichen Forschungspraxis.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Müller-Birn et al_2016_Softwarenutzung in der geisteswissenschaftlichen Forschungspraxis.pdf",
+          "uri": "http://zotero.org/users/2267349/items/8RMK82PC"
+        }
+      ],
+      "citationKey": "muller-birnSoftwarenutzungGeisteswissenschaftlichenForschungspraxis2016",
+      "citekey": "muller-birnSoftwarenutzungGeisteswissenschaftlichenForschungspraxis2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexa",
+          "lastName": "Schlegel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christian",
+          "lastName": "Pentzold"
+        }
+      ],
+      "date": "2016",
+      "dateAdded": "2022-06-10T08:17:17Z",
+      "dateModified": "2022-06-10T08:19:54Z",
+      "extra": "Accepted: 2017-06-17T20:14:18Z\nPublisher: Gesellschaft für Informatik e.V.",
+      "itemID": 13984,
+      "itemKey": "LSRPPK6B",
+      "itemType": "conferencePaper",
+      "key": "LSRPPK6B",
+      "language": "de",
+      "libraryCatalog": "dl.gi.de",
+      "libraryID": 1,
+      "notes": [],
+      "place": "Aachen",
+      "publicationTitle": "Proceedings of the Mensch und Computer 2016 Sozial Digital ``Gemeinsam auf neuen Wegen''",
+      "publisher": "Gesellschaft für Informatik e.V. (GI)",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/LSRPPK6B",
+      "tags": [],
+      "title": "Softwarenutzung in der geisteswissenschaftlichen Forschungspraxis",
+      "uri": "http://zotero.org/users/2267349/items/LSRPPK6B",
+      "url": "http://dl.gi.de/handle/20.500.12116/223",
+      "version": 5820
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2021-04-10T13:39:24Z",
+          "dateModified": "2021-04-10T13:39:24Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/SRC9MTFJ/Research Data Alliance Community Meeting  2016 Müller-Birn.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Research Data Alliance Community Meeting  2016 Müller-Birn",
+          "uri": "http://zotero.org/users/2267349/items/SRC9MTFJ"
+        }
+      ],
+      "citationKey": "muller-birnTerminologyServiceService2016",
+      "citekey": "muller-birnTerminologyServiceService2016",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Naouel",
+          "lastName": "Karam"
+        }
+      ],
+      "date": "November 28, 2016",
+      "dateAdded": "2021-04-10T13:39:24Z",
+      "dateModified": "2021-04-10T13:39:24Z",
+      "extra": "Journal Abbreviation: Research Data Alliance Community Meeting\nPublication Title: Research Data Alliance Community Meeting",
+      "itemID": 10016,
+      "itemKey": "34E8GEDH",
+      "itemType": "presentation",
+      "key": "34E8GEDH",
+      "libraryID": 1,
+      "meetingName": "Research Data Alliance Community Meeting",
+      "notes": [],
+      "place": "Potsdam",
+      "relations": [],
+      "select": "zotero://select/library/items/34E8GEDH",
+      "tags": [
+        {
+          "tag": "open science"
+        }
+      ],
+      "title": "Terminology Service – a service for semantic annotation and discovery of interdisciplinary research data",
+      "uri": "http://zotero.org/users/2267349/items/34E8GEDH",
+      "url": "http://os.helmholtz.de/fileadmin/user_upload/os.helmholtz.de/Workshops/rda_de_16_poster_muellerbirn.pdf",
+      "version": 104
+    },
+    {
+      "attachments": [],
+      "citationKey": "mueller-birn_neonion_2016",
+      "citekey": "mueller-birn_neonion_2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andre",
+          "lastName": "Breitenfeld"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Elisabeth",
+          "lastName": "Burr"
+        }
+      ],
+      "date": "2016",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: mueller-birn_neonion_2016",
+      "itemID": 13937,
+      "itemKey": "6FKGTW6Y",
+      "itemType": "conferencePaper",
+      "key": "6FKGTW6Y",
+      "language": "german",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "354–355",
+      "place": "Duisburg",
+      "publicationTitle": "DHd 2016: Modellierung, Vernetzung, Visualisierung: die Digital Humanitis als fächerübergreifendes Forschungsparadigma: Konferenzabstracts",
+      "publisher": "Nisaba Verlag",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/6FKGTW6Y",
+      "tags": [
+        {
+          "tag": "neonion"
+        }
+      ],
+      "title": "neonion: Kollaboratives Annotieren zur Erschließung von textuellen Quellen",
+      "uri": "http://zotero.org/users/2267349/items/6FKGTW6Y",
+      "url": "http://dhd2016.de/boa.pdf",
+      "version": 5979
+    },
+    {
+      "DOI": "10.1007/s13222-016-0231-8",
+      "ISSN": "1610-1995",
+      "abstractNote": "Research has become more data-intensive over the last few decades. Sharing research data is often a challenge, especially for interdisciplinary collaborative projects. One primary goal of a research infrastructure for data management should be to enable efficient data discovery and integration of heterogeneous data. In order to enable such interoperability, a lot of effort has been undertaken by scientists to develop standards and characterize their domain knowledge in the form of taxonomies and formal ontologies. However, these knowledge models are often disconnected and distributed. The work presented here provides a promising approach for integrating and harmonizing terminological resources to serve as a backbone for a platform. The component developed, called the GFBio Terminology Service, acts as a semantic platform for access, development and reasoning over internally and externally maintained terminological resources within the biological and environmental domain. We highlight the utility of the Terminology Service by practical use cases of semantically enhanced components. We show how the Terminology Service enables applications to add meaning to their data by giving access to the knowledge that can be derived from the terminologies and data annotated by them.",
+      "accessDate": "2022-06-10T08:14:32Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T08:14:35Z",
+          "dateModified": "2022-06-10T08:14:35Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/CSLSERWY/Karam et al_2016_A Terminology Service Supporting Semantic Annotation, Integration, Discovery.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Karam et al_2016_A Terminology Service Supporting Semantic Annotation, Integration, Discovery.pdf",
+          "uri": "http://zotero.org/users/2267349/items/CSLSERWY"
+        }
+      ],
+      "citationKey": "karamTerminologyServiceSupporting2016",
+      "citekey": "karamTerminologyServiceSupporting2016",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Naouel",
+          "lastName": "Karam"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maren",
+          "lastName": "Gleisberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Fichtmüller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Tolksdorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anton",
+          "lastName": "Güntsch"
+        }
+      ],
+      "date": "2016-11-01",
+      "dateAdded": "2022-06-10T08:14:32Z",
+      "dateModified": "2022-06-10T08:14:32Z",
+      "issue": "3",
+      "itemID": 13982,
+      "itemKey": "6LA685MN",
+      "itemType": "journalArticle",
+      "journalAbbreviation": "Datenbank Spektrum",
+      "key": "6LA685MN",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "195-205",
+      "publicationTitle": "Datenbank-Spektrum",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/6LA685MN",
+      "tags": [
+        {
+          "tag": "Taxonomies",
+          "type": 1
+        },
+        {
+          "tag": "Data discovery",
+          "type": 1
+        },
+        {
+          "tag": "Interoperability",
+          "type": 1
+        },
+        {
+          "tag": "Ontologies",
+          "type": 1
+        },
+        {
+          "tag": "Ontology-based data access",
+          "type": 1
+        },
+        {
+          "tag": "Research data infrastructure",
+          "type": 1
+        },
+        {
+          "tag": "Terminology repository",
+          "type": 1
+        }
+      ],
+      "title": "A Terminology Service Supporting Semantic Annotation, Integration, Discovery and Analysis of Interdisciplinary Research Data",
+      "uri": "http://zotero.org/users/2267349/items/6LA685MN",
+      "url": "https://doi.org/10.1007/s13222-016-0231-8",
+      "version": 5809,
+      "volume": "16"
+    },
+    {
+      "DOI": "10.1007/978-3-319-47874-6_11",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T08:09:50Z",
+          "dateModified": "2022-06-10T08:09:50Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/A56XDNPE/978-3-319-47874-6_11.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/2267349/items/A56XDNPE"
+        }
+      ],
+      "citationKey": "cuongApplicabilitySequenceAnalysis2016a",
+      "citekey": "cuongApplicabilitySequenceAnalysis2016a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "To Tu",
+          "lastName": "Cuong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Emma",
+          "lastName": "Spro"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Yong-Yeol",
+          "lastName": "Ahn"
+        }
+      ],
+      "date": "2016",
+      "dateAdded": "2022-06-10T08:09:43Z",
+      "dateModified": "2022-06-10T08:12:21Z",
+      "itemID": 13980,
+      "itemKey": "VSGPWLMX",
+      "itemType": "conferencePaper",
+      "key": "VSGPWLMX",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "142–156",
+      "place": "Heidelberg",
+      "publicationTitle": "Proceedings of the 8th International Conference (SocInf)",
+      "publisher": "Springer",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/VSGPWLMX",
+      "series": "Lecture notes of Computer Science",
+      "shortTitle": "Applicability of sequence analysis methods in analyzing peer-production systems",
+      "tags": [],
+      "title": "Applicability of sequence analysis methods in analyzing peer-production systems: a case study in wikidata",
+      "uri": "http://zotero.org/users/2267349/items/VSGPWLMX",
+      "version": 5805,
+      "volume": "10047"
+    },
+    {
+      "attachments": [],
+      "citationKey": "mueller-birn_mit_annotieren_2015",
+      "citekey": "mueller-birn_mit_annotieren_2015",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Florian",
+          "lastName": "Schmaltz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tina",
+          "lastName": "Klüwer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Stiller"
+        }
+      ],
+      "date": "2015",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: mueller-birn_mit_annotieren_2015",
+      "itemID": 13935,
+      "itemKey": "JWEMADMA",
+      "itemType": "conferencePaper",
+      "key": "JWEMADMA",
+      "language": "german",
+      "libraryID": 1,
+      "notes": [],
+      "place": "Graz, österreich",
+      "publicationTitle": "Dhd-Tagung Von Daten zu Erkenntnissen: Digitale Geisteswissenschaften als Mittler zwischen Information und Interpretation",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/JWEMADMA",
+      "tags": [
+        {
+          "tag": "neonion"
+        }
+      ],
+      "title": "neonion – Kollaboratives, semantisches Annotieren von Dokumenten als Mehrwert für das Forschen in den Geisteswissenschaften und der Informatik",
+      "uri": "http://zotero.org/users/2267349/items/JWEMADMA",
+      "url": "http://gams.uni-graz.at/o:dhd2015.abstracts-gesamt",
+      "version": 5978
+    },
+    {
+      "DOI": "10.1145/2685553.2699012",
+      "ISBN": "978-1-4503-2946-0",
+      "abstractNote": "The reading of text resources in scholarly settings can take various forms. Each form provides scholars with different insights that complement each other. The first findings from an ongoing series of interviews on scholarly annotation practices suggest that users are aware of the various forms of reading, but they are reluctant to use automatic annotations and still rely on conventional tools. In this paper, we introduce a prototype of annotation software that aims to interrelate different types of reading synergistically by employing a mixed-initiative approach.",
+      "accessDate": "2022-06-10",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T08:03:03Z",
+          "dateModified": "2022-06-10T08:03:03Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/EX4UZ8VL/Müller-Birn et al_2015_neonion.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Müller-Birn et al_2015_neonion.pdf",
+          "uri": "http://zotero.org/users/2267349/items/EX4UZ8VL"
+        }
+      ],
+      "citationKey": "muller-birnNeonionCombiningHuman2015",
+      "citekey": "muller-birnNeonionCombiningHuman2015",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tina",
+          "lastName": "Klüwer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "André",
+          "lastName": "Breitenfeld"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexa",
+          "lastName": "Schlegel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Benedix"
+        }
+      ],
+      "date": "February 28, 2015",
+      "dateAdded": "2022-06-10T08:03:01Z",
+      "dateModified": "2022-06-10T08:03:01Z",
+      "itemID": 13977,
+      "itemKey": "89ADL26T",
+      "itemType": "conferencePaper",
+      "key": "89ADL26T",
+      "libraryCatalog": "ACM Digital Library",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "223–226",
+      "place": "New York, NY, USA",
+      "publicationTitle": "Proceedings of the 18th ACM Conference Companion on Computer Supported Cooperative Work & Social Computing",
+      "publisher": "Association for Computing Machinery",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/89ADL26T",
+      "series": "CSCW'15 Companion",
+      "shortTitle": "neonion",
+      "tags": [
+        {
+          "tag": "annotation",
+          "type": 1
+        },
+        {
+          "tag": "digital humanities",
+          "type": 1
+        },
+        {
+          "tag": "mixed-initiative approach",
+          "type": 1
+        },
+        {
+          "tag": "reading",
+          "type": 1
+        }
+      ],
+      "title": "neonion: Combining Human and Machine Intelligence",
+      "uri": "http://zotero.org/users/2267349/items/89ADL26T",
+      "url": "https://doi.org/10.1145/2685553.2699012",
+      "version": 5786
+    },
+    {
+      "DOI": "10.1145/2788993.2789836",
+      "attachments": [
+        {
+          "dateAdded": "2021-04-10T13:39:22Z",
+          "dateModified": "2022-06-10T07:58:59Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/HLX4SGJF/OpenSym '15 2015 Müller-Birn.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "OpenSym '15 2015 Müller-Birn",
+          "uri": "http://zotero.org/users/2267349/items/HLX4SGJF"
+        }
+      ],
+      "citationKey": "mueller-birn_peer-production_2015",
+      "citekey": "mueller-birn_peer-production_2015",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Benjamin",
+          "lastName": "Karran"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Janette",
+          "lastName": "Lehmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Markus",
+          "lastName": "Luczak-Rösch"
+        }
+      ],
+      "date": "2015",
+      "dateAdded": "2021-04-10T13:39:22Z",
+      "dateModified": "2022-06-10T07:58:59Z",
+      "extra": "Citation Key: mueller-birn_peer-production_2015",
+      "itemID": 13933,
+      "itemKey": "8UITPIBG",
+      "itemType": "conferencePaper",
+      "key": "8UITPIBG",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "20:1–20:10",
+      "place": "New York, NY",
+      "publicationTitle": "Proceedings of the 11th International Symposium on Open Collaboration (OpenSym'15)",
+      "publisher": "ACM",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/8UITPIBG",
+      "series": "OpenSym '15",
+      "tags": [
+        {
+          "tag": "bot"
+        },
+        {
+          "tag": "bots"
+        },
+        {
+          "tag": "wikidata"
+        },
+        {
+          "tag": "peer production"
+        }
+      ],
+      "title": "Peer-production system or collaborative ontology development effort: what is Wikidata?",
+      "uri": "http://zotero.org/users/2267349/items/8UITPIBG",
+      "url": "http://doi.acm.org/10.1145/2788993.2789836",
+      "version": 5978
+    },
+    {
+      "attachments": [],
+      "citationKey": "muller-birn_rethinking_2014",
+      "citekey": "muller-birn_rethinking_2014",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dirk",
+          "lastName": "Wintergrün"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexa",
+          "lastName": "Schlegel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andre",
+          "lastName": "Breitenfeld"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Anne",
+          "lastName": "Baillot"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2014",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "extra": "Citation Key: muller-birn_rethinking_2014",
+      "itemID": 13930,
+      "itemKey": "YUGDMF9A",
+      "itemType": "bookSection",
+      "key": "YUGDMF9A",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "58",
+      "place": "Berlin",
+      "publicationTitle": "Crossing borders – digital humanities today and tomorrow. Workshop on Digital Humanities in Berlin",
+      "publisher": "Freie Universität Berlin",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/YUGDMF9A",
+      "tags": [
+        {
+          "tag": "neonion"
+        }
+      ],
+      "title": "Rethinking annotations in humanities and art",
+      "uri": "http://zotero.org/users/2267349/items/YUGDMF9A",
+      "url": "https://edoc.hu-berlin.de/bitstream/handle/18452/14227/22OGIt0MQgz9s.pdf?sequence=1",
+      "version": 5978
+    },
+    {
+      "attachments": [],
+      "citationKey": "mueller-birn_entwicklung_2014",
+      "citekey": "mueller-birn_entwicklung_2014",
+      "conferenceName": "Gender-UseIT",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Philipps"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Silvia",
+          "lastName": "Arlt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mechthild",
+          "lastName": "Koreuber"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Nicola",
+          "lastName": "Marsden"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Ute",
+          "lastName": "Kempf"
+        }
+      ],
+      "date": "2014",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-10T07:45:15Z",
+      "extra": "Citation Key: mueller-birn_entwicklung_2014",
+      "itemID": 13929,
+      "itemKey": "9BRUVTCU",
+      "itemType": "conferencePaper",
+      "key": "9BRUVTCU",
+      "language": "german",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "13–21",
+      "place": "Bielefeld",
+      "publicationTitle": "Proceedings of Fachtagung Gender-UseIT - HCI, Web-Usability und UX unter Gendergesichtspunkten",
+      "publisher": "Netzwerk Gender-UseIT",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/9BRUVTCU",
+      "tags": [
+        {
+          "tag": "girlsday"
+        }
+      ],
+      "title": "Entwicklung eines zielgruppengerechten Interaktionsdesigns für Schülerinnen",
+      "uri": "http://zotero.org/users/2267349/items/9BRUVTCU",
+      "url": "https://www.gender-wissen-informatik.de/content/download/120/file/Tagungsdokumentation_final_20140715.pdf",
+      "version": 5779
+    },
+    {
+      "DOI": "10.1145/2631775.2631805",
+      "ISBN": "978-1-4503-2954-5",
+      "abstractNote": "Wikipedia is a collaboratively-edited online encyclopaedia that relies on thousands of editors to both contribute articles and maintain their quality. Over the last years, research has extensively investigated this group of users while another group of Wikipedia users, the readers, their preferences and their behavior have not been much studied. This paper makes this group and its %their activities visible and valuable to Wikipedia's editor community. We carried out a study on two datasets covering a 13-months period to obtain insights on users preferences and reading behavior in Wikipedia. We show that the most read articles do not necessarily correspond to those frequently edited, suggesting some degree of non-alignment between user reading preferences and author editing preferences. We also identified that popular and often edited articles are read according to four main patterns, and that how an article is read may change over time. We illustrate how this information can provide valuable insights to Wikipedia's editor community.",
+      "accessDate": "2022-06-10",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T07:33:43Z",
+          "dateModified": "2022-06-10T07:33:43Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/SHCNILEW/Lehmann et al_2014_Reader preferences and behavior on Wikipedia.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Lehmann et al_2014_Reader preferences and behavior on Wikipedia.pdf",
+          "uri": "http://zotero.org/users/2267349/items/SHCNILEW"
+        }
+      ],
+      "citationKey": "lehmannReaderPreferencesBehavior2014",
+      "citekey": "lehmannReaderPreferencesBehavior2014",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Janette",
+          "lastName": "Lehmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Laniado"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mounia",
+          "lastName": "Lalmas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andreas",
+          "lastName": "Kaltenbrunner"
+        }
+      ],
+      "date": "September 1, 2014",
+      "dateAdded": "2022-06-10T07:33:41Z",
+      "dateModified": "2022-06-10T07:33:41Z",
+      "itemID": 13923,
+      "itemKey": "MHY3JNU3",
+      "itemType": "conferencePaper",
+      "key": "MHY3JNU3",
+      "libraryCatalog": "ACM Digital Library",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "88–97",
+      "place": "New York, NY, USA",
+      "publicationTitle": "Proceedings of the 25th ACM conference on Hypertext and social media",
+      "publisher": "Association for Computing Machinery",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/MHY3JNU3",
+      "series": "HT '14",
+      "tags": [
+        {
+          "tag": "wikipedia",
+          "type": 1
+        },
+        {
+          "tag": "article quality",
+          "type": 1
+        },
+        {
+          "tag": "editor",
+          "type": 1
+        },
+        {
+          "tag": "engagement",
+          "type": 1
+        },
+        {
+          "tag": "human factors",
+          "type": 1
+        },
+        {
+          "tag": "measurement",
+          "type": 1
+        },
+        {
+          "tag": "reader",
+          "type": 1
+        },
+        {
+          "tag": "reading behavior",
+          "type": 1
+        },
+        {
+          "tag": "reading interest",
+          "type": 1
+        }
+      ],
+      "title": "Reader preferences and behavior on Wikipedia",
+      "uri": "http://zotero.org/users/2267349/items/MHY3JNU3",
+      "url": "https://doi.org/10.1145/2631775.2631805",
+      "version": 5756
+    },
+    {
+      "attachments": [],
+      "citationKey": "mueller-birn_who_reads_2014",
+      "citekey": "mueller-birn_who_reads_2014",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Janette",
+          "lastName": "Lehmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Lanaido"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mounia",
+          "lastName": "Lalmas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andreas",
+          "lastName": "Kaltenbrunner"
+        }
+      ],
+      "date": "2014",
+      "dateAdded": "2022-06-10T07:42:05Z",
+      "dateModified": "2022-06-10T07:42:05Z",
+      "extra": "Citation Key: mueller-birn_who_reads_2014",
+      "itemID": 13931,
+      "itemKey": "WZPK3Q2J",
+      "itemType": "conferencePaper",
+      "key": "WZPK3Q2J",
+      "language": "Englisch",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "Wikimania, London, Great Britain",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/WZPK3Q2J",
+      "tags": [
+        {
+          "tag": "wikipedia"
+        }
+      ],
+      "title": "Who reads what and how: Transforming reading behavior into valuable feedback for the Wikipedia community",
+      "uri": "http://zotero.org/users/2267349/items/WZPK3Q2J",
+      "url": "https://wikimania2014.wikimedia.org/wiki/Submissions/Who_reads_what_and_how:_Transforming_reading_behavior_into_valuable_feedback_for_the_Wikipedia_community",
+      "version": 5773
+    },
+    {
+      "ISSN": "2191-379X",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T07:09:10Z",
+          "dateModified": "2022-06-10T07:09:10Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/TKZQZU2C/422.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/2267349/items/TKZQZU2C"
+        },
+        {
+          "dateAdded": "2022-06-10T07:09:04Z",
+          "dateModified": "2022-06-10T07:09:11Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/BJS3W89I/Straube et al. - 2013 - DoInG-Informatisches Denken und Handeln in der Gru.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Straube et al. - 2013 - DoInG-Informatisches Denken und Handeln in der Gru.pdf",
+          "uri": "http://zotero.org/users/2267349/items/BJS3W89I"
+        }
+      ],
+      "citationKey": "straubeDoInGInformatischesDenkenUnd2013",
+      "citekey": "straubeDoInGInformatischesDenkenUnd2013",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Philipp",
+          "lastName": "Straube"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nadia Madany",
+          "lastName": "Mamlouk"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hilde",
+          "lastName": "Köster"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Volkhard",
+          "lastName": "Nordmeier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Carsten",
+          "lastName": "Schulte"
+        }
+      ],
+      "date": "2013",
+      "dateAdded": "2022-06-10T07:09:03Z",
+      "dateModified": "2022-06-10T07:10:31Z",
+      "itemID": 13915,
+      "itemKey": "MXZ2QYLS",
+      "itemType": "journalArticle",
+      "key": "MXZ2QYLS",
+      "language": "German",
+      "libraryID": 1,
+      "notes": [],
+      "publicationTitle": "PhyDid B-Didaktik der Physik-Beiträge zur DPG-Frühjahrstagung",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/MXZ2QYLS",
+      "tags": [],
+      "title": "DoInG-Informatisches Denken und Handeln in der Grundschule",
+      "uri": "http://zotero.org/users/2267349/items/MXZ2QYLS",
+      "url": "http://phydid.physik.fu-berlin.de/index.php/phydid-b/article/view/422",
+      "version": 5718
+    },
+    {
+      "DOI": "10.1145/2482991.2482999",
+      "ISBN": "978-1-4503-2104-4",
+      "abstractNote": "Research has shown the importance of a functioning governance system for the success of peer production communities. It particularly highlights the role of human coordination and communication within the governance regime. In this article, we extend this line of research by differentiating two categories of governance mechanisms. The first category is based primarily on communication, in which social norms emerge that are often formalized by written rules and guidelines. The second category refers to the technical infrastructure that enables users to access artifacts, and that allows the community to communicate and coordinate their collective actions to create those artifacts. We collected qualitative and quantitative data from Wikipedia in order to show how a community's consensus gradually converts social mechanisms into algorithmic mechanisms. In detail, we analyze algorithmic governance mechanisms in two embedded cases: the software extension \"flagged revisions\" and the bot \"xqbot\". Our insights point towards a growing relevance of algorithmic governance in the realm of governing large-scale peer production communities. This extends previous research, in which algorithmic governance is almost absent. Further research is needed to unfold, understand, and also modify existing interdependencies between social and algorithmic governance mechanisms.",
+      "accessDate": "2022-06-10",
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T07:07:23Z",
+          "dateModified": "2022-06-10T07:07:35Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/SGCSJLCR/Müller-Birn et al. - 2013 - Work-to-rule the emergence of algorithmic governa.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Müller-Birn et al. - 2013 - Work-to-rule the emergence of algorithmic governa.pdf",
+          "uri": "http://zotero.org/users/2267349/items/SGCSJLCR"
+        }
+      ],
+      "citationKey": "muller-birnWorktoruleEmergenceAlgorithmic2013a",
+      "citekey": "muller-birnWorktoruleEmergenceAlgorithmic2013a",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leonhard",
+          "lastName": "Dobusch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "James D.",
+          "lastName": "Herbsleb"
+        }
+      ],
+      "date": "June 29, 2013",
+      "dateAdded": "2022-06-10T07:07:20Z",
+      "dateModified": "2022-06-10T07:07:20Z",
+      "itemID": 13913,
+      "itemKey": "G9YP2NHV",
+      "itemType": "conferencePaper",
+      "key": "G9YP2NHV",
+      "libraryCatalog": "ACM Digital Library",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "80–89",
+      "place": "New York, NY, USA",
+      "publicationTitle": "Proceedings of the 6th International Conference on Communities and Technologies",
+      "publisher": "Association for Computing Machinery",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/G9YP2NHV",
+      "series": "C&amp;T '13",
+      "shortTitle": "Work-to-rule",
+      "tags": [
+        {
+          "tag": "bots",
+          "type": 1
+        },
+        {
+          "tag": "governance",
+          "type": 1
+        },
+        {
+          "tag": "qualitative",
+          "type": 1
+        },
+        {
+          "tag": "software",
+          "type": 1
+        },
+        {
+          "tag": "wiki",
+          "type": 1
+        },
+        {
+          "tag": "Wikipedia",
+          "type": 1
+        }
+      ],
+      "title": "Work-to-rule: the emergence of algorithmic governance in Wikipedia",
+      "uri": "http://zotero.org/users/2267349/items/G9YP2NHV",
+      "url": "https://doi.org/10.1145/2482991.2482999",
+      "version": 5707
+    },
+    {
+      "attachments": [],
+      "citationKey": "muller-birnUsingInsightsSocial2013a",
+      "citekey": "muller-birnUsingInsightsSocial2013a",
+      "creators": [
+        {
+          "creatorType": "editor",
+          "firstName": "Amit P.",
+          "lastName": "Sheth"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Payam",
+          "lastName": "Barnaghi"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Markus",
+          "lastName": "Strohmaier"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Ramesh",
+          "lastName": "Jain"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Steffen",
+          "lastName": "Staab"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2013",
+      "dateAdded": "2022-06-10T07:23:04Z",
+      "dateModified": "2022-06-11T21:23:12Z",
+      "itemID": 13921,
+      "itemKey": "W5L3FA78",
+      "itemType": "bookSection",
+      "key": "W5L3FA78",
+      "libraryID": 1,
+      "notes": [],
+      "numberOfVolumes": "9",
+      "pages": "253-254",
+      "place": "Dagstuhl, Germany",
+      "publicationTitle": "Physical-Cyber-Social Computing",
+      "publisher": "Dagstuhl Publishing",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/W5L3FA78",
+      "series": "Dagstuhl Reports 13402",
+      "tags": [],
+      "title": "Using Insights from Social Computing to Augment Automotive Sensory Data",
+      "uri": "http://zotero.org/users/2267349/items/W5L3FA78",
+      "version": 6880,
+      "volume": "3"
+    },
+    {
+      "attachments": [
+        {
+          "dateAdded": "2022-06-10T07:15:54Z",
+          "dateModified": "2022-06-10T07:15:55Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/6CIKNBJN/Dobusch et al_2013_Between crowd and community.pdf",
+          "relations": [],
+          "tags": [],
+          "title": "Dobusch et al_2013_Between crowd and community.pdf",
+          "uri": "http://zotero.org/users/2267349/items/6CIKNBJN"
+        },
+        {
+          "dateAdded": "2022-06-10T07:16:09Z",
+          "dateModified": "2022-06-10T07:16:09Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/QB5I7JKK/ambpp.2013.html",
+          "relations": [],
+          "tags": [],
+          "title": "Snapshot",
+          "uri": "http://zotero.org/users/2267349/items/QB5I7JKK"
+        }
+      ],
+      "citationKey": "dobuschCrowdCommunityOrganizing2013",
+      "citekey": "dobuschCrowdCommunityOrganizing2013",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leonhard",
+          "lastName": "Dobusch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Gegenhuber"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert M.",
+          "lastName": "Bauer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2013",
+      "dateAdded": "2022-06-10T07:15:50Z",
+      "dateModified": "2022-06-10T07:15:50Z",
+      "extra": "Issue: 1",
+      "itemID": 13918,
+      "itemKey": "8IHX8EN5",
+      "itemType": "conferencePaper",
+      "key": "8IHX8EN5",
+      "libraryCatalog": "Google Scholar",
+      "libraryID": 1,
+      "notes": [],
+      "pages": "15842",
+      "publicationTitle": "Academy of Management Proceedings",
+      "publisher": "Academy of Management Briarcliff Manor, NY 10510",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/8IHX8EN5",
+      "shortTitle": "Between crowd and community",
+      "tags": [],
+      "title": "Between crowd and community: organizing online collaboration in open innovation and beyond",
+      "uri": "http://zotero.org/users/2267349/items/8IHX8EN5",
+      "version": 5724,
+      "volume": "2013"
+    },
+    {
+      "ISBN": "978-3-940019-37-0",
+      "attachments": [
+        {
+          "accessDate": "2022-06-12T15:33:26Z",
+          "charset": "",
+          "contentType": "text/html",
+          "dateAdded": "2022-06-12T15:33:26Z",
+          "dateModified": "2022-06-12T15:33:26Z",
+          "inPublications": true,
+          "itemType": "attachment",
+          "key": "3TTMEHYY",
+          "linkMode": "linked_url",
+          "parentItem": "9YWETBNA",
+          "relations": {},
+          "select": "zotero://select/library/items/3TTMEHYY",
+          "tags": [],
+          "title": "Google Books Link",
+          "uri": "http://zotero.org/users/2267349/items/3TTMEHYY",
+          "url": "https://books.google.de/books?id=eNKLzVBMxX8C",
+          "version": 6029
+        }
+      ],
+      "citationKey": "muller-birnGraphentheoretischeAnalyseEvolution2008",
+      "citekey": "muller-birnGraphentheoretischeAnalyseEvolution2008",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Claudia",
+          "lastName": "Müller-Birn"
+        }
+      ],
+      "date": "2008",
+      "dateAdded": "2022-06-12T15:33:25Z",
+      "dateModified": "2022-06-12T15:33:25Z",
+      "extra": "Google-Books-ID: eNKLzVBMxX8C",
+      "itemID": 14299,
+      "itemKey": "9YWETBNA",
+      "itemType": "book",
+      "key": "9YWETBNA",
+      "language": "de",
+      "libraryCatalog": "Google Books",
+      "libraryID": 1,
+      "notes": [],
+      "numPages": "319",
+      "publisher": "GITO mbH Verlag",
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/9YWETBNA",
+      "tags": [],
+      "title": "Graphentheoretische Analyse der Evolution von Wiki-basierten Netzwerken für selbstorganisiertes Wissensmanagement",
+      "uri": "http://zotero.org/users/2267349/items/9YWETBNA",
+      "version": 6029
+    },
+    {
+      "accessDate": "2022-10-12T19:17:40Z",
+      "attachments": [
+        {
+          "dateAdded": "2022-10-12T19:18:02Z",
+          "dateModified": "2022-10-12T19:18:02Z",
+          "itemType": "attachment",
+          "path": "/Users/adm_clmb/Zotero/storage/4FCVGCNE/3543758.html",
+          "relations": [],
+          "tags": [],
+          "title": "Unfolding Values through Systematic Guidance: Conducting a Value-Centered Participatory Workshop for a Patient-Oriented Data Donation | Proceedings of Mensch und Computer 2022",
+          "uri": "http://zotero.org/users/2267349/items/4FCVGCNE"
+        }
+      ],
+      "citationKey": "UnfoldingValuesSystematic",
+      "citekey": "UnfoldingValuesSystematic",
+      "creators": [],
+      "dateAdded": "2022-10-12T19:17:40Z",
+      "dateModified": "2022-10-12T19:17:40Z",
+      "itemID": 17611,
+      "itemKey": "SAVCX3PF",
+      "itemType": "webpage",
+      "key": "SAVCX3PF",
+      "libraryID": 1,
+      "notes": [],
+      "relations": [],
+      "rights": "All rights reserved",
+      "select": "zotero://select/library/items/SAVCX3PF",
+      "tags": [],
+      "title": "Unfolding Values through Systematic Guidance: Conducting a Value-Centered Participatory Workshop for a Patient-Oriented Data Donation | Proceedings of Mensch und Computer 2022",
+      "uri": "http://zotero.org/users/2267349/items/SAVCX3PF",
+      "url": "https://dl.acm.org/doi/10.1145/3543758.3547560",
+      "version": 8012
+    }
+  ],
+  "version": {
+    "bbt": "6.7.1",
+    "zotero": "6.0.15"
+  }
+}
